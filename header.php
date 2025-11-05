@@ -9,7 +9,7 @@
 <body>
     <header>
         <nav>
-            <!-- insert logotype -->
+            <!-- insert FUTURITY logotype -->
             <a href="">HOME</a>
             <a href="">THEATERS</a>
             <a href="">SHOWTIME</a>

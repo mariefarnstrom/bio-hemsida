@@ -4,8 +4,9 @@ require __DIR__ . '/header.php';
 
 ?>
 
+<!-- insert hero image -->
 <h1>YOUR LOCAL THEATER SHOWCASING BOTH NEW AND CLASSIC SCI-FI FILMS</h1>
-<h2>NOW SHOWING</h2>
+<h2>NOW SHOWING <!-- insert camera icon --> </h2>
 <section class="showingNow">
     <!-- insert movie covers -->
 </section>
@@ -13,7 +14,10 @@ require __DIR__ . '/header.php';
 <section class="dealsSection">
     <article class="classicOfTheMonth">
         <h2>CLASSIC OF THE MONTH</h2>
-    <!-- insert classic movie title and cover -->
+            <div>
+                <h3>TERMINATOR 2 - JUDGMENT DAY (1991)</h3>
+                <!-- insert classic movie cover -->
+            </div>
     </article>
     <article class="deals">
         <h2>DEALS OF THE WEEK</h2>
@@ -33,7 +37,7 @@ require __DIR__ . '/header.php';
     <!-- insert movie covers -->
 </section>
 
-<article>
+<article class="signUp">
     <h3>SIGN UP FOR OUR NEWSLETTER</h3>
     <p>ENTER YOUR EMAIL HERE</p>
 </article>
