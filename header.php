@@ -8,5 +8,12 @@
 </head>
 <body>
     <header>
-
+        <nav>
+            <!-- insert logotype -->
+            <a href="">HOME</a>
+            <a href="">THEATERS</a>
+            <a href="">SHOWTIME</a>
+            <!-- insert search icon -->
+            <!-- insert profile icon -->
+        </nav>
     </header>
