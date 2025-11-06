@@ -22,6 +22,9 @@ require __DIR__ . '/header.php';
     <article class="deals">
         <h2>DEALS OF THE WEEK</h2>
         <div>
+        <div>
+            <img src="images/octopus-glass 1.png">
+        </div>
             <h3>DRINK SPECIAL</h3>
             <p>STAR JELLY SOUR - $10</p>
         </div>

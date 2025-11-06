@@ -8,12 +8,12 @@
 </head>
 <body>
     <header>
+        <img src="images/futurity-logo.png">
         <nav>
-            <!-- insert FUTURITY logotype -->
             <a href="">HOME</a>
             <a href="">THEATERS</a>
             <a href="">SHOWTIME</a>
-            <!-- insert search icon -->
-            <!-- insert profile icon -->
+            <a href=""><img src="images/search.png"></a>
+            <a href=""><img src="images/alien-icon 1.png"></a>
         </nav>
     </header>
