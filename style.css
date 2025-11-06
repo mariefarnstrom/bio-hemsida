@@ -1,0 +1,13 @@
+.nowShowingCarousel, .comingSoonCarousel {
+    width: 100vw;
+    display: flex;
+    gap: 25px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.nowShowingCarousel div, .comingSoonCarousel div {
+    background-color: rgb(125, 126, 126);
+    flex: 0 0 17%;
+    aspect-ratio: 2 / 3;
+}

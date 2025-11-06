@@ -6,11 +6,18 @@ require __DIR__ . '/header.php';
 
 <!-- insert hero image -->
 <h1>YOUR LOCAL THEATER SHOWCASING BOTH NEW AND CLASSIC SCI-FI FILMS</h1>
-<h2>NOW SHOWING <!-- insert camera icon --> </h2>
-<section class="showingNow">
-    <!-- insert movie covers -->
-</section>
 
+<section class="showingNow">
+    <h2>NOW SHOWING <!-- insert camera icon --> </h2>
+    <section class="nowShowingCarousel">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</section>
 <section class="dealsSection">
     <article class="classicOfTheMonth">
         <h2>CLASSIC OF THE MONTH</h2>
@@ -37,7 +44,14 @@ require __DIR__ . '/header.php';
 
 <section class="comingSoon">
     <h2>COMING SOON</h2>
-    <!-- insert movie covers -->
+    <section class="comingSoonCarousel">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
 </section>
 
 <article class="signUp">
