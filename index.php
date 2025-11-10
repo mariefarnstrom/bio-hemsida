@@ -13,7 +13,10 @@ require __DIR__ . '/header.php';
     <h2>NOW SHOWING <!-- insert camera icon --> </h2>
     <a href="movie-info.php">
         <section class="nowShowingCarousel">
-            <div></div>
+            <div>
+                <img src="/images/movie-posters/Ash.jpg" alt="Ash">
+                <p>Ash</p>
+            </div>
             <div></div>
             <div></div>
             <div></div>

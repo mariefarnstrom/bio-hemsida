@@ -9,6 +9,7 @@
     --pink: #FF99F3;
     --turquoise: #48E5E1;
     --yellow: #FFDD62E3;
+    --font-base: 'Text Me One';
 }
 
 body {
@@ -33,7 +34,7 @@ body {
 
 header {
   	width: 100%;
-  	position: absolute;
+  	position: fixed;
   	margin: 0 !important;
   	overflow: hidden;
   	flex-shrink: 0;
@@ -105,7 +106,7 @@ header {
 
 .hero {
   	width: 100%;
-  	position: absolute;
+  	position: relative;
   	margin: 0 !important;
   	overflow: hidden;
   	flex-shrink: 0;
