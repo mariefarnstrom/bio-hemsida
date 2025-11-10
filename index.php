@@ -5,7 +5,9 @@ require __DIR__ . '/header.php';
 ?>
 
 <!-- insert hero image -->
-<h1>YOUR LOCAL THEATER SHOWCASING BOTH NEW AND CLASSIC SCI-FI FILMS</h1>
+<div class="hero">
+    <img class="hero-text" src="images/hero-text.png" alt="Your local theater showcasing both new and classic films">
+</div>
 
 <section class="showingNow">
     <h2>NOW SHOWING <!-- insert camera icon --> </h2>

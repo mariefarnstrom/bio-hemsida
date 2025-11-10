@@ -11,12 +11,12 @@
 
 <body>
     <header>
-        <img src="images/futurity-logo.png">
-        <nav>
-            <a href="">HOME</a>
-            <a href="">THEATERS</a>
-            <a href="">SHOWTIME</a>
-            <a href=""><img src="images/icons/search.png"></a>
-            <a href=""><img src="images/icons/alien-icon.png"></a>
-        </nav>
+        <img class="futurity-logo" src="images/futurity-logo.png" alt="futurity">
+        <div class="header-links">
+            <a class="home">HOME</a>
+            <a class="theaters">THEATERS</a>
+            <a class="showtimes">SHOWTIMES</a>
+            <img class="search-icon" src="images/icons/search.png" alt="magnifying glass">
+            <img class="alien-icon" src="images/icons/alien-icon.png" alt="outline of an alien">
+        </div>
     </header>
