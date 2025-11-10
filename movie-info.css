@@ -12,7 +12,8 @@
 }
 
 .movieInfo {
-    display: contents;
+    display: flex;
+    gap: 20px;
 }
 
 .movieInfo p {
@@ -20,6 +21,9 @@
     font-family: var(--inter-font);
 }
 
+.description {
+
+}
 .dealsOfTheWeek h2 {
     color: #FF99F3;
     text-align: center;
