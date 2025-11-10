@@ -9,7 +9,8 @@
     --pink: #FF99F3;
     --turquoise: #48E5E1;
     --yellow: #FFDD62E3;
-    --font-base: 'Text Me One';
+    --font-base: 'Text Me One', sans-serif;
+    --inter-font: 'Inter', sans-serif;
 }
 
 body {

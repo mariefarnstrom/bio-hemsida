@@ -1,3 +1,100 @@
+.movie {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+}
+
 .movieName {
-    position: relative;
+    font-family: var(--font-base);
+    color: var(--yellow);
+    font-size: 4rem;
+}
+
+.movieInfo {
+    display: contents;
+}
+
+.movieInfo p {
+    color: white;
+    font-family: var(--inter-font);
+}
+
+.dealsOfTheWeek h2 {
+    color: #FF99F3;
+    text-align: center;
+    text-shadow: 0 0 5px #FF2EE7;
+    font-family: "Text Me One";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dealsOfTheWeek img {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.dealsOfTheWeek h3 {
+    color: rgba(98, 250, 255, 0.89);
+    text-align: center;
+    text-shadow: 0 0 12.64px rgba(98, 250, 255, 0.89);
+    font-family: var(--font-base);
+    font-size: 31.115px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dealsOfTheWeek p {
+    color: rgba(255, 221, 98, 0.89);
+    text-align: center;
+    text-shadow: 0 0 12.64px rgba(255, 221, 98, 0.89);
+    font-family: var(--font-base);
+    font-size: 31.115px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.signUp h3 {
+    display: flex;
+    width: 274.875px;
+    height: 68.685px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FF99F3;
+    text-align: center;
+    text-shadow: 0 0 9.351px #FF2EE7;
+    font-family: var(--font-base);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: 13.5%; /* 4.32px */
+    text-underline-position: from-font;
+}
+
+.signUp p {
+    display: flex;
+    width: 279.965px;
+    height: 16.131px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: rgba(98, 250, 255, 0.89);
+    text-align: center;
+    text-shadow: 0 0 9.351px rgba(98, 250, 255, 0.89);
+    font-family: var(--font-base);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
