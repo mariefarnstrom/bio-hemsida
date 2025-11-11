@@ -20,12 +20,26 @@ require __DIR__ . '/header.php';
                 CAST: Ryan Gosling, Milana Vayntrub, Sandra Hüller</p>
         </div>
     </section>
-    <section class="imagesAndTrailer">
-        <img src="">
-        <img src="">
-        <img src="">
-        <img src="">
-    </section>
+    <div class="carousel">
+        <button class="carousel-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+
+        <div class="carousel-images">
+            <img src="/images/movie-images/phm1.jpg" alt="Bild 1" class="carousel-slide active">
+            <img src="/images/movie-images/phm2.jpg" alt="Bild 2" class="carousel-slide">
+            <img src="/images/movie-images/phm3.jpg" alt="Bild 3" class="carousel-slide">
+            <img src="/images/movie-images/phm4.jpg" alt="Bild 4" class="carousel-slide">
+        </div>
+
+        <button class="carousel-btn next" onclick="changeSlide(1)">&#10095;</button>
+
+        <!-- Prickar för att visa vilken bild (valfritt) -->
+        <div class="carousel-dots">
+            <span class="dot active" onclick="goToSlide(0)"></span>
+            <span class="dot" onclick="goToSlide(1)"></span>
+            <span class="dot" onclick="goToSlide(2)"></span>
+            <span class="dot" onclick="goToSlide(3)"></span>
+        </div>
+    </div>
 </div>
 <section class="dealsOfTheWeek">
     <h2>DEALS OF THE WEEK</h2>
