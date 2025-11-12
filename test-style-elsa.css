@@ -103,6 +103,9 @@ header {
   	object-fit: cover;
 }
 
+
+/* Body */
+
 /* Hero Styling */
 
 .hero {
@@ -126,3 +129,120 @@ header {
   	object-fit: cover;
 }
 
+
+/* Carousel styling */
+
+.now-showing {
+  	height: 502px;
+  	width: 100%;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 408px;
+  	left: 0px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	padding: 0px 44px;
+  	box-sizing: border-box;
+  	gap: 28px;
+  	text-align: center;
+  	font-size: 48px;
+  	color: #48e5e1;
+  	font-family: 'Text Me One';
+}
+.now-showing-title-container {
+  	width: 392.8px;
+  	height: 56.9px;
+  	position: relative;
+}
+.title-container {
+  	position: absolute;
+  	top: 11px;
+  	left: 0px;
+  	width: 313.1px;
+  	height: 33px;
+}
+.title {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	text-decoration: underline;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 313.1px;
+  	height: 33px;
+  	text-shadow: 0px 0px 5px rgba(98, 250, 255, 0.89);
+}
+.camera-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 336px;
+  	width: 56.8px;
+  	height: 56.9px;
+  	object-fit: cover;
+}
+.film-container {
+  	align-self: stretch;
+  	height: 395px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.film-carousel {
+  	width: 1424px;
+  	overflow-x: auto;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 11.5px 10.5px;
+  	box-sizing: border-box;
+  	gap: 28.7px;
+}
+.teal-frame-movie {
+  	height: 371.8px;
+  	width: 257.1px;
+  	position: relative;
+  	flex-shrink: 0;
+}
+.teal-image-icon {
+  	position: absolute;
+  	width: 92.22%;
+  	top: 9.49px;
+  	right: 3.61%;
+  	left: 4.17%;
+  	border-radius: 3.82px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 351.2px;
+  	object-fit: cover;
+	border: 1px solid var(--turquoise);
+}
+.teal-frame {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 4.78px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: contain;
+}
+.now-showing-image-icon {
+  	position: absolute;
+  	width: 92.22%;
+  	top: 9.49px;
+  	right: 3.6%;
+  	left: 4.18%;
+  	border-radius: 3.82px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 351.2px;
+  	object-fit: cover;
+}
