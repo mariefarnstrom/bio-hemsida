@@ -133,6 +133,7 @@ footer {
   	width: 100%;
   	position: absolute;
   	margin: 0 !important;
+	/* ! adjust to bottom instead of top once rest of layout is done ! */
   	top: 165.813rem;
   	left: 0rem;
   	overflow: hidden;
