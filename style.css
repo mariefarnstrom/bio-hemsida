@@ -34,8 +34,8 @@ body {
 /* Header Styling */
 
 header {
-  	width: 100%;
-  	position: fixed;
+  	width: 100vw;
+  	position: absolute;
   	margin: 0 !important;
   	overflow: hidden;
   	flex-shrink: 0;
