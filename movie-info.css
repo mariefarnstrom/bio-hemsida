@@ -3,13 +3,28 @@
     flex-direction: column;
     padding: 70px;
     align-items: center;
+    gap: 40px;
+}
+
+.cam-titel {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+    width: 400px;
+    justify-content: center;
+}
+
+.cam-titel img {
+    height: 15%;
+    width: 15%;
 }
 
 .movieName {
     font-family: var(--font-base);
     color: var(--yellow);
-    font-size: 2.7rem;
+    font-size: 2rem;
     width: max-content;
+    margin-bottom: 0px;
 }
 
 .coverHolder img {
@@ -31,9 +46,36 @@
     font-family: var(--inter-font);
 }
 
+.buy-button {
+    color: #FFF;
+    font-family: var(--inter-font);
+    font-size: 28.444px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 216px;
+    height: 71.111px;
+    flex-shrink: 0;
+    border-radius: 44.444px;
+    background: linear-gradient(86deg, #AA3AFF 5.86%, #EE58FF 29.2%, #FF34D0 49.51%, #FF3665 74.57%, #FF8C00 95.75%);
+    transition: all 0.5s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.buy-button:hover {
+    background: linear-gradient(266deg, #AA3AFF 5.86%, #EE58FF 29.2%, #FF34D0 49.51%, #FF3665 74.57%, #FF8C00 95.75%);
+    box-shadow: 6px 6px 10px #fc6aeb;
+    width: 230px;
+    height: 80px;
+    transition: 0.3s ease;
+}
+
 .carousel {
     position: relative;
-    max-width: 800px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .carousel-images {
@@ -41,6 +83,63 @@
     width: 80vw;
     height: 200px;
     overflow: hidden;
+}
+
+@media (max-width: 1024px){
+    .carousel-btn {
+    opacity: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .movieInfo p {
+        font-size: 2rem;
+    }
+
+    .buy-button {
+
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .carousel-images {
+        height: 400px;
+    }
+
+    .cam-titel {
+        width: 800px;
+    }
+
+    .movieName {
+        font-size: 4rem;
+    }
+
+    .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px 5px;
+    cursor: pointer;
+    z-index: 10;
+    transition: background 0.3s;
+    }
+
+    .carousel-btn:hover {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .prev {
+        left: 10px;
+    }
+
+    .next {
+        right: 10px;
+    }
 }
 
 .carousel-slide {
@@ -54,32 +153,6 @@
 
 .carousel-slide.active {
     opacity: 1;
-}
-
-.carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-100%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    font-size: 30px;
-    padding: 10px 5px;
-    cursor: pointer;
-    z-index: 10;
-    transition: background 0.3s;
-}
-
-.carousel-btn:hover {
-    background: rgba(0, 0, 0, 0.8);
-}
-
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
 }
 
 .carousel-dots {

@@ -4,9 +4,12 @@ require __DIR__ . '/header.php';
 
 <!-- insert camera icon -->
 <div class="movie">
-    <h1 class="movieName">
-        Project Hail Mary
-    </h1>
+    <div class="cam-titel">
+        <img src="/images/icons/camera-icon.png" alt="camera-icon">
+        <h1 class="movieName">
+            PROJECT HAIL MARY
+        </h1>
+    </div>
     <section class="movieInfo">
         <div class="coverHolder">
             <img src="images/movie1.png" alt="'Project Hail Mary' movie cover">
@@ -20,6 +23,9 @@ require __DIR__ . '/header.php';
                 CAST: Ryan Gosling, Milana Vayntrub, Sandra Hüller</p>
         </div>
     </section>
+
+    <button class="buy-button">Buy ticket</button>
+
     <div class="carousel">
         <button class="carousel-btn prev" onclick="changeSlide(-1)">&#10094;</button>
 
