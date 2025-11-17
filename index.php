@@ -10,21 +10,54 @@ require __DIR__ . '/variables.php';
     <img class="hero-text" src="images/hero-text.png" alt="Your local theater showcasing both new and classic films">
 </div>
 
-<section class="showingNow">
-    <h2>NOW SHOWING <!-- insert camera icon --> </h2>
-    <a href="movie-info.php">
-        <section class="nowShowingCarousel">
-            <div>
-                <img src="/images/movie-posters/Ash.jpg" alt="Ash">
-                <p>Ash</p>
+<section class="now-showing">
+    <div class="now-showing-title-container">
+        <div class="title-container">
+            <div class="title">NOW SHOWING</div>
+        </div>
+        <img class="camera-icon" src="/images/icons/camera-icon.png" alt="outline of a film camera">
+
+    </div>
+    <div class="film-container">
+        <div class="film-carousel">
+            <div class="teal-frame-movie">
+                <img class="teal-image-icon" src="images/movie-posters/Ash.jpg" alt="Ash poster">
+
+                <?= $tealFrame ?>
+
             </div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-    </a>
+            <div class="pink-frame-movie">
+                <img class="pink-image-icon" src="/images/movie-posters/mickey17.jpg" alt="Mickey 17 poster">
+
+                <?= $pinkFrame; ?>
+
+            </div>
+            <div class="teal-frame-movie">
+                <img class="teal-image-icon" src="/images/movie-posters/star-trek-section-31.jpg" alt="Star Trek: Section 31 poster">
+
+                <?= $tealFrame; ?>
+
+            </div>
+            <div class="pink-frame-movie">
+                <img class="pink-image-icon" src="/images/movie-posters/tron-ares.jpg" alt="Tron: Ares">
+
+                <?= $pinkFrame; ?>
+
+            </div>
+            <div class="teal-frame-movie">
+                <img class="teal-image-icon" src="/images/movie-posters/predator-badlands.jpeg" alt="Predator: Badlands poster">
+
+                <?= $tealFrame; ?>
+
+            </div>
+            <div class="pink-frame-movie">
+                <img class="pink-image-icon" src="/images/movie-posters/companion.jpg" alt="Companion poster">
+
+                <?= $pinkFrame; ?>
+
+            </div>
+        </div>
+    </div>
 </section>
 <section class="dealsSection">
     <article class="classicOfTheMonth">
