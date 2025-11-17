@@ -1,6 +1,7 @@
 <?php
 
 require __DIR__ . '/header.php';
+require __DIR__ . '/variables.php';
 
 ?>
 
@@ -32,9 +33,9 @@ require __DIR__ . '/header.php';
             <div class="classicSquare">
 
                 <h3 class="classicTitle">TERMINATOR 2 - JUDGMENT DAY (1991)</h3>
-                    <div class="classicCoverFrame">
-                        <img class="classicCover" src="/images/movie-posters/terminator2.jpg" alt="Classic movie cover">
-                    </div>
+                <div class="classicCoverFrame">
+                    <img class="classicCover" src="/images/movie-posters/terminator2.jpg" alt="Classic movie cover">
+                </div>
             </div>
         </a>
     </article>
