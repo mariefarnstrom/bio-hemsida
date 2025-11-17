@@ -132,7 +132,7 @@ header {
 
 /* Carousel Styling */
 
-.now-showing {
+.film-carousel-container {
   	height: 31.375rem;
   	width: 100vw;
   	margin: 0 !important;
@@ -149,7 +149,7 @@ header {
   	color: var(--turquoise);
   	font-family: 'Text Me One';
 }
-.now-showing-title-container {
+.carousel-title-container {
   	width: 24.55rem;
   	height: 3.55625rem;
   	position: relative;
@@ -292,6 +292,9 @@ header {
 	justify-content: space-around;
 }
 
+.dealsSection article {
+	padding: 2rem;
+}
 .classicOfTheMonth {
 	width: 50%;
 	display: flex;
@@ -304,8 +307,9 @@ header {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	border: 1px solid rgba(255, 221, 98, 0.89);
+	border: 1px solid var(--yellow);
 	border-radius: 3.2px;
+    box-shadow: 0 0 10.413px 0 var(--yellow);
 }
 
 .classicHeading {
@@ -349,6 +353,7 @@ header {
 	display: inline-block;
 	border: 1px solid rgba(255, 221, 98, 0.89);
 	border-radius: 3.2px;
+	box-shadow: 0 0 10.413px 0 var(--yellow);
 	margin: 1rem;
 }
 
@@ -395,6 +400,10 @@ header {
 	display: flex;
 	gap: 1rem;
 	align-items: center;
+	border: 1px solid var(--pink);
+	box-shadow: 0 0 10.413px 0 var(--pink-shadow);
+	border-radius: 3.2px;
+	
 }
 
 .drinkDeal {

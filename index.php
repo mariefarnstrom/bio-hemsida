@@ -10,8 +10,8 @@ require __DIR__ . '/variables.php';
     <img class="hero-text" src="images/hero-text.png" alt="Your local theater showcasing both new and classic films">
 </div>
 
-<section class="now-showing">
-    <div class="now-showing-title-container">
+<section class="film-carousel-container">
+    <div class="carousel-title-container">
         <div class="title-container">
             <div class="title">NOW SHOWING</div>
         </div>
@@ -39,7 +39,7 @@ require __DIR__ . '/variables.php';
 
             </div>
             <div class="pink-frame-movie">
-                <img class="pink-image-icon" src="/images/movie-posters/tron-ares.jpg" alt="Tron: Ares">
+                <img class="pink-image-icon" src="/images/movie-posters/tron-ares.jpg" alt="Tron: Ares poster">
 
                 <?= $pinkFrame; ?>
 
@@ -90,18 +90,53 @@ require __DIR__ . '/variables.php';
     </article>
 </section>
 
-<section class="comingSoon">
-    <h2>COMING SOON</h2>
-    <a href="movie-info.php">
-        <section class="comingSoonCarousel">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-    </a>
+<section class="film-carousel-container">
+    <div class="carousel-title-container">
+        <div class="title-container">
+            <div class="title">COMING SOON</div>
+        </div>
+
+    </div>
+    <div class="film-container">
+        <div class="film-carousel">
+            <div class="teal-frame-movie">
+                <img class="teal-image-icon" src="images/movie-posters/avatar-fireandash.jpeg" alt="Avatar: Fire and Ash poster">
+
+                <?= $tealFrame ?>
+
+            </div>
+            <div class="pink-frame-movie">
+                <img class="pink-image-icon" src="/images/movie-posters/the-dog-stars.jpg" alt="The Dog Stars poster">
+
+                <?= $pinkFrame; ?>
+
+            </div>
+            <div class="teal-frame-movie">
+                <img class="teal-image-icon" src="/images/movie-posters/project-hail-mary.jpg" alt="Project Hail Mary poster">
+
+                <?= $tealFrame; ?>
+
+            </div>
+            <div class="pink-frame-movie">
+                <img class="pink-image-icon" src="/images/movie-posters/dune-part-three.jpg" alt="Dune Part Three">
+
+                <?= $pinkFrame; ?>
+
+            </div>
+            <div class="teal-frame-movie">
+                <img class="teal-image-icon" src="/images/movie-posters/the-mandalorian-and-grogu.jpg" alt="Star Wars: The Mandalorian and Grogu poster">
+
+                <?= $tealFrame; ?>
+
+            </div>
+            <div class="pink-frame-movie">
+                <img class="pink-image-icon" src="/images/movie-posters/28yearslater.jpg" alt="28 Years Later poster">
+
+                <?= $pinkFrame; ?>
+
+            </div>
+        </div>
+    </div>
 </section>
 
 <article class="signUp">
