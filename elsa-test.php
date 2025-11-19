@@ -1,5 +1,5 @@
 <?php
-$tealFrame = '<svg class="teal-frame" xmlns="http://www.w3.org/2000/svg" width="284" height="399" viewBox="0 0 284 399" fill="none">
+$tealFrame = '<svg class="teal-frame" xmln film-hovers="http://www.w3.org/2000/svg" width="284" height="399" viewBox="0 0 284 399" fill="none">
         <g filter="url(#filter0_d_2192_6)">
             <path d="M258.471 385.137H18.1578C15.5188 385.137 13.3795 382.998 13.3795 380.359V18.1578C13.3795 15.5188 15.5188 13.3794 18.1578 13.3794H265.678C268.317 13.3794 270.456 15.5188 270.456 18.1578V372.959" stroke="var(--turquoise)" stroke-opacity="0.89" stroke-width="1.91135" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges" />
         </g>
@@ -83,6 +83,7 @@ $newsletterBox = '<svg class="newsletter-box" xmlns="http://www.w3.org/2000/svg"
     <div class="hero">
         <img class="hero-text" src="images/hero-text.png" alt="Your local theater showcasing both new and classic films">
     </div>
+    </div>
     <section class="now-showing">
         <div class="now-showing-title-container">
             <div class="title-container">
@@ -93,37 +94,37 @@ $newsletterBox = '<svg class="newsletter-box" xmlns="http://www.w3.org/2000/svg"
         </div>
         <div class="film-container">
             <div class="film-carousel">
-                <div class="teal-frame-movie">
+                <div class="teal-frame-movie film-hover">
                     <img class="teal-image-icon" src="images/movie-posters/Ash.jpg" alt="Ash poster">
 
                     <?= $tealFrame ?>
 
                 </div>
-                <div class="pink-frame-movie">
+                <div class="pink-frame-movie film-hover">
                     <img class="pink-image-icon" src="/images/movie-posters/mickey17.jpg" alt="Mickey 17 poster">
 
                     <?= $pinkFrame; ?>
 
                 </div>
-                <div class="teal-frame-movie">
+                <div class="teal-frame-movie film-hover">
                     <img class="teal-image-icon" src="/images/movie-posters/star-trek-section-31.jpg" alt="Star Trek: Section 31 poster">
 
                     <?= $tealFrame; ?>
 
                 </div>
-                <div class="pink-frame-movie">
+                <div class="pink-frame-movie film-hover">
                     <img class="pink-image-icon" src="/images/movie-posters/tron-ares.jpg" alt="Tron: Ares">
 
                     <?= $pinkFrame; ?>
 
                 </div>
-                <div class="teal-frame-movie">
+                <div class="teal-frame-movie film-hover">
                     <img class="teal-image-icon" src="/images/movie-posters/predator-badlands.jpeg" alt="Predator: Badlands poster">
 
                     <?= $tealFrame; ?>
 
                 </div>
-                <div class="pink-frame-movie">
+                <div class="pink-frame-movie film-hover">
                     <img class="pink-image-icon" src="/images/movie-posters/companion.jpg" alt="Companion poster">
 
                     <?= $pinkFrame; ?>
@@ -133,18 +134,35 @@ $newsletterBox = '<svg class="newsletter-box" xmlns="http://www.w3.org/2000/svg"
         </div>
     </section>
 
-    <section class="comingSoon">
-        <h2>COMING SOON</h2>
-        <a href="movie-info.php">
-            <section class="comingSoonCarousel">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </section>
-        </a>
+    <section class="dealsSection">
+        <article class="classicOfTheMonth">
+            <h2 class="classicHeading">CLASSIC OF THE MONTH</h2>
+            <a class="classicLink" href="movie-info.php">
+                <div class="classicSquare">
+
+                    <h3 class="classicTitle">TERMINATOR 2 - JUDGMENT DAY (1991)</h3>
+                    <div class="classicCoverFrame">
+                        <img class="classicCover" src="/images/movie-posters/terminator2.jpg" alt="Classic movie cover">
+                    </div>
+                </div>
+            </a>
+        </article>
+        <article class="deals">
+            <h2 class="dealsHeading">DEALS OF THE WEEK</h2>
+            <div class="drinkDealFrame">
+                <div class="drinkImageFrame">
+                    <img src="images/octopus-glass 1.png">
+                </div>
+                <div class="drinkTextFrame">
+                    <h3 class="drinkHeading">DRINK SPECIAL</h3>
+                    <p class="drinkDeal">STAR JELLY SOUR - $10</p>
+                </div>
+            </div>
+            <div class="foodFrame">
+                <h3 class="foodHeading">FOOD SPECIAL</h3>
+                <p class="foodDeal">BOGO POPCORN - $5</p>
+            </div>
+        </article>
     </section>
 
     <section class="newsletter-container">

@@ -389,9 +389,15 @@ header {
 	text-shadow: 0px 0px 5px #ff2ee7;
 }
 
+.drinkTextFrame {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 1rem;
+}
+
 .drinkHeading {
 	margin-bottom: 0;
-	margin-right: 1rem;
 	width: 12.338rem;
 	height: 4.194rem;
 	position: relative;
@@ -413,10 +419,11 @@ header {
 	display: flex;
 	gap: 1rem;
 	align-items: center;
+	justify-content: center;
 	border: 1px solid var(--pink);
 	box-shadow: 0 0 10.413px 0 var(--pink-shadow);
 	border-radius: 3.2px;
-	
+	padding-left: .25rem;
 }
 
 .drinkImageFrame {
