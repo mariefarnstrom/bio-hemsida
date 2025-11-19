@@ -289,6 +289,211 @@ header {
     filter: drop-shadow(0 0 12.424px #FF2EE7);
 }
 
+/* Deals Section */
+
+.dealsSection {
+	display: flex;
+	justify-content: space-around;
+}
+
+.dealsSection article {
+	padding: 2rem;
+}
+.classicOfTheMonth {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.classicSquare {
+	width: fit-content;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	border: 1px solid var(--yellow);
+	border-radius: 3.2px;
+    box-shadow: 0 0 10.413px 0 var(--yellow);
+}
+
+.classicHeading {
+	width: 32.219rem;
+	height: 5.294rem;
+	position: relative;
+	font-size: 2.5rem;
+	font-weight: lighter;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 0.8rem;
+	font-family: 'Text Me One';
+	color: rgba(255, 221, 98, 0.89);
+	text-align: center;
+	display: flex;
+	flex-shrink: 1;
+	align-items: center;
+	justify-content: center;
+	text-shadow: 0px 0px 10.82px rgba(255, 221, 98, 0.89);
+}
+
+.classicTitle {
+	height: 8.463rem;
+	width: 14.019rem;
+	position: relative;
+	font-size: 2.003rem;
+	font-weight: lighter;
+	font-family: 'Text Me One';
+	color: rgba(255, 221, 98, 0.89);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-shadow: 0px 0px 10.41px rgba(255, 221, 98, 0.89);
+	flex-grow: 1;
+	margin: 1.5rem;
+}
+
+.classicLink {
+	text-decoration: none;
+}
+
+.classicCoverFrame {
+	display: inline-block;
+	border: 1px solid rgba(255, 221, 98, 0.89);
+	border-radius: 3.2px;
+	box-shadow: 0 0 10.413px 0 var(--yellow);
+	margin: 1rem;
+}
+
+.classicCover {
+	height: 24rem;
+	width: 16rem;
+	object-fit: cover;
+}
+
+.dealsHeading {
+	width: 24.9rem;
+	height: 5.294rem;
+	position: relative;
+	justify-self: center;
+	font-size: 2.5rem;
+	font-weight: lighter;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 0.8rem;
+	font-family: 'Text Me One';
+	color: #ff99f3;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-shadow: 0px 0px 5px #ff2ee7;
+}
+
+.drinkTextFrame {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 1rem;
+}
+.drinkHeading {
+	margin-bottom: 0;
+	width: 12.338rem;
+	height: 4.194rem;
+	position: relative;
+	font-size: 1.944rem;
+	font-weight: lighter;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+	text-underline-offset: 0.6rem;
+	font-family: 'Text Me One';
+	color: rgba(98, 250, 255, 0.89);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-shadow: 0px 2px 12.64px rgba(98, 250, 255, 0.89);
+}
+
+.drinkDealFrame {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid var(--pink);
+	box-shadow: 0 0 10.413px 0 var(--pink-shadow);
+	border-radius: 3.2px;
+	padding-left: .25rem;
+}
+
+.drinkImageFrame {
+	margin: 0.5rem;
+	margin-top: 0.6rem;
+}
+
+.drinkDeal {
+	margin-top: 0;
+	width: 10.875rem;
+	height: 7.113rem;
+	position: relative;
+	font-size: 1.944rem;
+	font-family: 'Text Me One';
+	color: rgba(255, 221, 98, 0.89);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-shadow: 0px 0px 12.64px rgba(255, 221, 98, 0.89);
+}
+
+.foodFrame {
+	justify-self: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid rgba(255, 221, 98, 0.89);
+	border-radius: 3.2px;
+	box-shadow: 0 0 10.413px 0 var(--yellow);
+	margin-top: 1rem;
+}
+
+.foodHeading {
+	margin-bottom: 0;
+	margin-top: 1rem;
+	width: 12.338rem;
+	height: 4.194rem;
+	position: relative;
+	font-size: 1.944rem;
+	font-weight: lighter;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+	text-underline-offset: 0.6rem;
+	font-family: 'Text Me One';
+	color: #ff99f3;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-shadow: 0px 0px 12.64px #ff2ee7;
+}
+
+.foodDeal {
+	margin-top: 0;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	width: 13.919rem;
+	height: 7.113rem;
+	position: relative;
+	font-size: 1.944rem;
+	font-family: 'Text Me One';
+	color: rgba(98, 250, 255, 0.89);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-shadow: 0px 0px 12.64px rgba(98, 250, 255, 0.89);
+}
+
 /* Newsletter Styling */
 
 .newsletter-container{
