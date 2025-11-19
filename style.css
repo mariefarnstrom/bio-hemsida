@@ -191,16 +191,16 @@ header {
 }
 .camera-icon {
   	position: relative;
-    top: 10px;
-    left: 60px;
-    width: 45px;
-    height: 45px;
+    top: 0.625rem;
+    left: 3.75rem;
+    width: 2.813rem;
+    height: 2.813rem;
     object-fit: cover;
 }
 
 .film-container {
   	align-self: stretch;
-  	height: 395px;
+  	height: 24.688rem;
   	display: flex;
   	align-items: center;
   	/* justify-content: center; */
@@ -208,6 +208,7 @@ header {
 .film-carousel {
   	width: 100%;
   	overflow-x: auto;
+	overflow-y: hidden;
   	flex-shrink: 0;
   	display: flex;
   	align-items: center;
@@ -222,8 +223,8 @@ header {
 }
 
 .teal-frame-movie {
-  	height: 371.8px;
-  	width: 257.1px;
+  	height: 23.238rem;
+  	width: 16.069rem;
   	position: relative;
   	flex-shrink: 0;
 	display: flex;
@@ -259,8 +260,8 @@ header {
 }
 
 .pink-frame-movie {
-  	height: 371.8px;
-  	width: 257.1px;
+  	height: 23.238rem;
+  	width: 16.069rem;
   	position: relative;
   	flex-shrink: 0;
 	display: flex;

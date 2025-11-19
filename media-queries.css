@@ -9,7 +9,10 @@
 
     .classicOfTheMonth {
         width: 100%;
+    }
 
+    .film-carousel-container {
+        height: 45rem;
     }
 
 }
