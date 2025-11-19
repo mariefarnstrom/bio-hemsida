@@ -599,69 +599,74 @@ button {
 
 footer {
   	width: 100%;
-  	margin: 0 !important;
-	/* ! adjust to bottom instead of top once rest of layout is done ! */
-  	top: 165.813rem;
-  	left: 0rem;
-  	overflow: hidden;
-  	flex-shrink: 0;
-  	display: flex;
-  	align-items: center;
-  	padding: 1.687rem 2.375rem;
-  	box-sizing: border-box;
-  	gap: 28.437rem;
-  	text-align: center;
-  	font-size: 1.5rem;
-  	color: rgba(98, 250, 255, 0.89);
-  	font-family: 'Text Me One';
+    /* margin: 0 !important; */
+    top: 165.813rem;
+    left: 0rem;
+    /* overflow: hidden; */
+    /* flex-shrink: 0; */
+    display: flex;
+    align-items: center;
+    padding: 1.687rem 2.375rem;
+    box-sizing: border-box;
+    /* gap: 28.437rem; */
+    /* text-align: center; */
+    font-size: 1.5rem;
+    color: rgba(98, 250, 255, 0.89);
+    font-family: 'Text Me One';
+    justify-content: space-between;
 }
 .youll-be-back {
-  	height: 1.813rem;
-  	width: 12rem;
-  	position: relative;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	flex-shrink: 0;
-  	text-shadow: 0px 0px 13px rgba(98, 250, 255, 0.89);
+  	/* height: 1.813rem; */
+    /* width: 12rem; */
+    position: relative;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    flex-shrink: 0;
+    text-shadow: 0px 0px 13px rgba(98, 250, 255, 0.89);
+    font-size: 1.5rem;
 }
 .futurity {
   	height: 1.813rem;
-  	width: 12rem;
-  	position: relative;
-  	color: var(--pink);
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	flex-shrink: 0;
-  	text-shadow: 0px 0px 13px var(--pink-shadow);
+    /* width: 12rem; */
+    position: relative;
+    color: var(--pink);
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-shrink: 0; */
+    text-shadow: 0px 0px 13px var(--pink-shadow);
+    font-size: 1.5rem;
 }
 .socials {
   	height: 2.681rem;
-  	width: 8.188rem;
-  	position: relative;
+    width: 8.188rem;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 .insta-icon {
-  	position: absolute;
-  	top: 0rem;
-  	left: 0rem;
-  	width: 2.681rem;
   	height: 2.681rem;
-  	object-fit: cover;
+	/* position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 2.681rem;
+    object-fit: cover;*/
 }
+
 .facebook-icon {
-  	position: absolute;
-  	top: 0rem;
-  	left: 2.683rem;
-  	width: 2.631rem;
   	height: 2.638rem;
-  	object-fit: cover;
+	/*position: absolute; 
+    top: 0rem;
+    left: 2.683rem;
+    width: 2.631rem;
+    object-fit: cover;*/
 }
+
 .youtube-icon {
-  	position: absolute;
-  	top: 0.185rem;
-  	left: 5.312rem;
-  	width: 2.875rem;
   	height: 2.306rem;
-  	object-fit: cover;
+	/* position: absolute; */
+    /* top: 0.185rem; */
+    /* left: 5.312rem; */
+    /* width: 2.875rem; */
+    /* object-fit: cover;*/
 }
