@@ -76,7 +76,7 @@ require __DIR__ . '/variables.php';
         <h2 class="dealsHeading">DEALS OF THE WEEK</h2>
         <div class="drinkDealFrame">
             <div class="drinkImageFrame">
-                <img src="images/octopus-glass 1.png">
+                <img class="drinkImage" src="images/octopus-glass 1.png">
             </div>
             <div class="drinkTextFrame">
                 <h3 class="drinkHeading">DRINK SPECIAL</h3>

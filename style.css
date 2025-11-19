@@ -375,7 +375,6 @@ header {
 .classicCover {
 	height: 24rem;
 	width: 16rem;
-	object-fit: cover;
 }
 
 .dealsHeading {
@@ -435,8 +434,16 @@ header {
 }
 
 .drinkImageFrame {
+	height: 12rem;
+	width: 12rem;
 	margin: 0.5rem;
 	margin-top: 0.6rem;
+}
+
+.drinkImage {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
 
 .drinkDeal {
@@ -490,7 +497,7 @@ header {
 	margin-bottom: 1rem;
 	margin-left: 1rem;
 	margin-right: 1rem;
-	width: 13.919rem;
+	/* width: 13.919rem; */
 	height: 7.113rem;
 	position: relative;
 	font-size: 1.944rem;

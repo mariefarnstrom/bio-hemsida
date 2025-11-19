@@ -5,10 +5,36 @@
 
     .dealsSection {        
         flex-direction: column;
+        align-items: center;
     }
 
     .classicOfTheMonth {
-        width: 100%;
+        width: 75%;
+    }
+
+    .deals {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .drinkDealFrame {
+        width: 90%;
+    }
+    
+    .drinkImageFrame {
+        height: 9rem;
+        width: 9rem;
+    }
+
+    .drinkHeading, .drinkDeal, .foodHeading, .foodDeal {
+        font-size: 1.2rem;
+        height: 4rem;
+    }
+
+    .foodFrame {
+        width: 50%;
     }
 
 }
