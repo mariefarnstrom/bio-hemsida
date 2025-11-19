@@ -214,7 +214,7 @@ header {
   	align-items: center;
   	padding: 11.5px 10.5px;
   	box-sizing: border-box;
-  	gap: 28.7px;
+  	gap: 1.794rem;
 }
 
 .film-carousel::-webkit-scrollbar {
@@ -331,7 +331,7 @@ header {
 	font-size: 2.5rem;
 	font-weight: lighter;
 	text-decoration: underline;
-	text-decoration-thickness: 2px;
+	text-decoration-thickness: 0.125rem;
 	text-underline-offset: 0.8rem;
 	font-family: 'Text Me One';
 	color: rgba(255, 221, 98, 0.89);
@@ -425,7 +425,7 @@ header {
 	font-size: 2.5rem;
 	font-weight: lighter;
 	text-decoration: underline;
-	text-decoration-thickness: 2px;
+	text-decoration-thickness: 0.125rem;
 	text-underline-offset: 0.8rem;
 	font-family: 'Text Me One';
 	color: #ff99f3;
@@ -451,7 +451,7 @@ header {
 	font-size: 1.944rem;
 	font-weight: lighter;
 	text-decoration: underline;
-	text-decoration-thickness: 1.5px;
+	text-decoration-thickness: 0.094rem;
 	text-underline-offset: 0.6rem;
 	font-family: 'Text Me One';
 	color: rgba(98, 250, 255, 0.89);
@@ -522,7 +522,7 @@ header {
 	font-size: 1.944rem;
 	font-weight: lighter;
 	text-decoration: underline;
-	text-decoration-thickness: 1.5px;
+	text-decoration-thickness: 0.094rem;
 	text-underline-offset: 0.6rem;
 	font-family: 'Text Me One';
 	color: #ff99f3;
