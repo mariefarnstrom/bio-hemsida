@@ -14,6 +14,10 @@
     --inter-font: 'Inter', sans-serif;
 }
 
+html {
+	font-size: 16px;
+}
+
 body {
     background: var(--background-texture), var(--background);
 	display: flex;
