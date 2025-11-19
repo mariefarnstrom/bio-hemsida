@@ -137,15 +137,18 @@ $newsletterBox = '<svg class="newsletter-box" xmlns="http://www.w3.org/2000/svg"
     <section class="dealsSection">
         <article class="classicOfTheMonth">
             <h2 class="classicHeading">CLASSIC OF THE MONTH</h2>
-            <a class="classicLink" href="movie-info.php">
+            <div class="classicLink">
                 <div class="classicSquare">
 
                     <h3 class="classicTitle">TERMINATOR 2 - JUDGMENT DAY (1991)</h3>
-                    <div class="classicCoverFrame">
+                    <div class="classicCoverFrame ">
                         <img class="classicCover" src="/images/movie-posters/terminator2.jpg" alt="Classic movie cover">
+                        <div class="hover-img">
+                            <a href="movie-info.php"><button class="info-tix">INFO & TICKETS</button></a>
+                        </div>
                     </div>
                 </div>
-            </a>
+            </div>
         </article>
         <article class="deals">
             <h2 class="dealsHeading">DEALS OF THE WEEK</h2>

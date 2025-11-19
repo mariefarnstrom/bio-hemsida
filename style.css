@@ -370,11 +370,51 @@ header {
 	border-radius: 3.2px;
 	box-shadow: 0 0 10.413px 0 var(--yellow);
 	margin: 1rem;
+	position: relative;
 }
 
 .classicCover {
 	height: 24rem;
 	width: 16rem;
+}
+
+.hover-img:hover{
+	opacity: 1;
+}
+
+.hover-img {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	top:0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+}
+
+.info-tix {
+	width: 10rem;
+	height: 3rem;
+	background: none;
+	border-radius: 0.25rem;
+	box-shadow: none;
+	border: 1px solid var(--yellow);
+	color: var(--yellow);
+	text-shadow: none;
+	text-align: center;
+	font-family: "Text Me One";
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	align-self: center;
+}
+
+.info-tix:hover {
+	background: var(--yellow);
+	color: black;
 }
 
 .dealsHeading {
@@ -431,6 +471,7 @@ header {
 	box-shadow: 0 0 10.413px 0 var(--pink-shadow);
 	border-radius: 3.2px;
 	padding-left: .25rem;
+	height: 13.4375rem;
 }
 
 .drinkImageFrame {
