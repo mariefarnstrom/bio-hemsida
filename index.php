@@ -139,10 +139,16 @@ require __DIR__ . '/variables.php';
     </div>
 </section>
 
-<article class="signUp">
-    <h3>SIGN UP FOR OUR NEWSLETTER</h3>
-    <p>ENTER YOUR EMAIL HERE</p>
-</article>
+<section class="newsletter-container">
+    <?= $newsletterBox; ?>
+    <div class="newsletter-form">
+        <form action="/index.php" method="post" enctype="text/plain">
+            <label for="email">SIGN UP FOR OUR NEWSLETTER</label>
+            <input type="email" name="email" id="email" placeholder="ENTER YOUR EMAIL HERE">
+            <button class="button" type="submit">SUBMIT</button>
+        </form>
+    </div>
+</section>
 
 <?php
 require __DIR__ . '/footer.php';

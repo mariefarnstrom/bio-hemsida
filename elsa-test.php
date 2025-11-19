@@ -34,6 +34,24 @@ $pinkFrame = '<svg xmlns="http://www.w3.org/2000/svg" width="284" height="399" v
     </filter>
   </defs>
 </svg>';
+
+$newsletterBox = '<svg class="newsletter-box" xmlns="http://www.w3.org/2000/svg" width="405" height="285" viewBox="0 0 405 285" fill="none">
+  <g filter="url(#filter0_d_2248_352)">
+    <path d="M376.168 274.07H13.6667C11.6804 274.07 10.0702 272.46 10.0702 270.474V13.6666C10.0702 11.6803 11.6804 10.0701 13.6667 10.0701H390.474C392.46 10.0701 394.07 11.6803 394.07 13.6666V265.422" stroke="var(--yellow)" stroke-opacity="0.89" stroke-width="1.4386" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges"/>
+  </g>
+  <defs>
+    <filter id="filter0_d_2248_352" x="1.43051e-05" y="-4.673e-05" width="404.14" height="284.14" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset/>
+      <feGaussianBlur stdDeviation="4.67544"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.867014 0 0 0 0 0.386218 0 0 0 0.89 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2248_352"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2248_352" result="shape"/>
+    </filter>
+  </defs>
+</svg>'
 ?>
 
 <!DOCTYPE html>
@@ -62,7 +80,6 @@ $pinkFrame = '<svg xmlns="http://www.w3.org/2000/svg" width="284" height="399" v
         </div>
     </header>
 
-    <!-- insert hero image -->
     <div class="hero">
         <img class="hero-text" src="images/hero-text.png" alt="Your local theater showcasing both new and classic films">
     </div>
@@ -115,30 +132,6 @@ $pinkFrame = '<svg xmlns="http://www.w3.org/2000/svg" width="284" height="399" v
             </div>
         </div>
     </section>
-    <section class="dealsSection">
-        <article class="classicOfTheMonth">
-            <h2>CLASSIC OF THE MONTH</h2>
-            <a href="movie-info.php">
-                <div>
-                    <h3>TERMINATOR 2 - JUDGMENT DAY (1991)</h3>
-                </div>
-            </a>
-        </article>
-        <article class="deals">
-            <h2>DEALS OF THE WEEK</h2>
-            <div>
-                <div>
-                    <img src="images/octopus-glass 1.png">
-                </div>
-                <h3>DRINK SPECIAL</h3>
-                <p>STAR JELLY SOUR - $10</p>
-            </div>
-            <div>
-                <h3>FOOD SPECIAL</h3>
-                <p>BOGO POPCORN - $5</p>
-            </div>
-        </article>
-    </section>
 
     <section class="comingSoon">
         <h2>COMING SOON</h2>
@@ -154,10 +147,16 @@ $pinkFrame = '<svg xmlns="http://www.w3.org/2000/svg" width="284" height="399" v
         </a>
     </section>
 
-    <article class="signUp">
-        <h3>SIGN UP FOR OUR NEWSLETTER</h3>
-        <p>ENTER YOUR EMAIL HERE</p>
-    </article>
+    <section class="newsletter-container">
+        <?= $newsletterBox; ?>
+        <div class="newsletter-form">
+            <form action="/index.php" method="post" enctype="text/plain">
+                <label for="email">SIGN UP FOR OUR NEWSLETTER</label>
+                <input type="email" name="email" id="email" placeholder="ENTER YOUR EMAIL HERE">
+                <button class="button" type="submit">SUBMIT</button>
+            </form>
+        </div>
+    </section>
 
     <?php
     require __DIR__ . '/footer.php';

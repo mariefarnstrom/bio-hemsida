@@ -475,6 +475,99 @@ header {
 	justify-content: center;
 	text-shadow: 0px 0px 12.64px rgba(98, 250, 255, 0.89);
 }
+
+/* Newsletter Styling */
+
+.newsletter-container{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 100vw;
+	height: 32.375rem;
+}
+
+.newsletter-form {
+	height: 16.5rem;
+	align-self: center;
+	display: flex;
+}
+
+form {
+	width: 18rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	position: relative;
+	align-self: center;
+}
+
+input {
+	background: none;
+	border: 1px solid var(--yellow);
+	border-radius: 3.2px;
+    box-shadow: 0 0 10.413px 0 var(--yellow);
+	height: 2.25rem;
+	padding-top: .25rem;
+}
+
+input::placeholder{
+	padding: 2rem 2rem 2rem 2rem;
+	font-family: var(--font-base);
+	font-size: 1.25rem;
+	text-align: center;
+	color: var(--turquoise);
+	text-align: center;
+	text-shadow: 0 0 9.351px var(--turquoise);
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+
+
+label {
+	width: 17.18rem;
+	padding: .5rem;
+    color: var(--pink);
+    text-align: center;
+    text-shadow: 0 0 9.351px var(--pink-shadow);
+    font-family: var(--font-base);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: 10%;
+    text-underline-position: from-font;
+	padding-top: 0;
+}
+
+button {
+	width: 4.25rem;
+	height: 1.625rem;
+	background: none;
+	border-radius: 0.25rem;
+	border: 1px solid var(--turquoise);
+	box-shadow: 0 0 13px 0 var(--turquoise);
+	color: var(--pink);
+	text-align: center;
+	text-shadow: 0 0 13px var(--pink-shadow);
+	font-family: "Text Me One";
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	align-self: center;
+}
+
+.newsletter-box {
+	position: absolute;
+	align-self: center;
+}
+
 /* Footer Styling */
 
 footer {

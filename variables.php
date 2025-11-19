@@ -35,7 +35,7 @@ $pinkFrame = '<svg xmlns="http://www.w3.org/2000/svg" width="284" height="399" v
   </defs>
 </svg>';
 
-$newsletterBox = '<svg xmlns="http://www.w3.org/2000/svg" width="405" height="285" viewBox="0 0 405 285" fill="none">
+$newsletterBox = '<svg class="newsletter-box" xmlns="http://www.w3.org/2000/svg" width="405" height="285" viewBox="0 0 405 285" fill="none">
   <g filter="url(#filter0_d_2248_352)">
     <path d="M376.168 274.07H13.6667C11.6804 274.07 10.0702 272.46 10.0702 270.474V13.6666C10.0702 11.6803 11.6804 10.0701 13.6667 10.0701H390.474C392.46 10.0701 394.07 11.6803 394.07 13.6666V265.422" stroke="var(--yellow)" stroke-opacity="0.89" stroke-width="1.4386" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges"/>
   </g>
