@@ -507,7 +507,15 @@ input {
 	border-radius: 3.2px;
     box-shadow: 0 0 10.413px 0 var(--yellow);
 	height: 2.25rem;
-	padding-top: .25rem;
+	font-family: var(--font-base);
+	font-size: 1.25rem;
+	text-align: center;
+	color: var(--turquoise);
+	text-align: center;
+	text-shadow: 0 0 9.351px var(--turquoise);
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 
 input::placeholder{
