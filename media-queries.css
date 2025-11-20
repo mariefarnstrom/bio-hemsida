@@ -3,6 +3,19 @@
         font-size: 9px;
     }
 
+    .film-container {
+        height: 28rem;
+    }
+
+    .film-carousel {
+      	gap: 0.7rem;
+    }
+
+    .pink-frame-movie, .teal-frame-movie {
+        height: 27.8856rem;
+        width: 19.2828rem;
+    }
+
     .dealsSection {        
         flex-direction: column;
         align-items: center;
