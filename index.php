@@ -22,37 +22,49 @@ require __DIR__ . '/variables.php';
         <div class="film-carousel">
             <div class="teal-frame-movie">
                 <img class="teal-image-icon" src="images/movie-posters/Ash.jpg" alt="Ash poster">
-
+                <div class="hover-img" id="carousel">
+                    <a href="movie-info.php"><button class="info-tix" id="teal">INFO & TICKETS</button></a>
+                </div>
                 <?= $tealFrame ?>
 
             </div>
             <div class="pink-frame-movie">
                 <img class="pink-image-icon" src="/images/movie-posters/mickey17.jpg" alt="Mickey 17 poster">
-
+                <div class="hover-img" id="carousel">
+                    <a href="movie-info.php"><button class="info-tix" id="pink">INFO & TICKETS</button></a>
+                </div>
                 <?= $pinkFrame; ?>
 
             </div>
             <div class="teal-frame-movie">
                 <img class="teal-image-icon" src="/images/movie-posters/star-trek-section-31.jpg" alt="Star Trek: Section 31 poster">
-
+                <div class="hover-img" id="carousel">
+                    <a href="movie-info.php"><button class="info-tix" id="teal">INFO & TICKETS</button></a>
+                </div>
                 <?= $tealFrame; ?>
 
             </div>
             <div class="pink-frame-movie">
                 <img class="pink-image-icon" src="/images/movie-posters/tron-ares.jpg" alt="Tron: Ares poster">
-
+                <div class="hover-img" id="carousel">
+                    <a href="movie-info.php"><button class="info-tix" id="pink">INFO & TICKETS</button></a>
+                </div>
                 <?= $pinkFrame; ?>
 
             </div>
             <div class="teal-frame-movie">
                 <img class="teal-image-icon" src="/images/movie-posters/predator-badlands.jpeg" alt="Predator: Badlands poster">
-
+                <div class="hover-img" id="carousel">
+                    <a href="movie-info.php"><button class="info-tix" id="teal">INFO & TICKETS</button></a>
+                </div>
                 <?= $tealFrame; ?>
 
             </div>
             <div class="pink-frame-movie">
                 <img class="pink-image-icon" src="/images/movie-posters/companion.jpg" alt="Companion poster">
-
+                <div class="hover-img" id="carousel">
+                    <a href="movie-info.php"><button class="info-tix" id="pink">INFO & TICKETS</button></a>
+                </div>
                 <?= $pinkFrame; ?>
 
             </div>
@@ -103,37 +115,49 @@ require __DIR__ . '/variables.php';
         <div class="film-carousel">
             <div class="teal-frame-movie">
                 <img class="teal-image-icon" src="images/movie-posters/avatar-fireandash.jpeg" alt="Avatar: Fire and Ash poster">
-
+                <div class="hover-img" id="carousel">
+                    <a href="movie-info.php"><button class="info-tix" id="teal">INFO & TICKETS</button></a>
+                </div>
                 <?= $tealFrame ?>
 
             </div>
             <div class="pink-frame-movie">
                 <img class="pink-image-icon" src="/images/movie-posters/the-dog-stars.jpg" alt="The Dog Stars poster">
-
+                <div class="hover-img" id="carousel">
+                    <a href="movie-info.php"><button class="info-tix" id="pink">INFO & TICKETS</button></a>
+                </div>
                 <?= $pinkFrame; ?>
 
             </div>
             <div class="teal-frame-movie">
                 <img class="teal-image-icon" src="/images/movie-posters/project-hail-mary.jpg" alt="Project Hail Mary poster">
-
+                <div class="hover-img" id="carousel">
+                    <a href="movie-info.php"><button class="info-tix" id="teal">INFO & TICKETS</button></a>
+                </div>
                 <?= $tealFrame; ?>
 
             </div>
             <div class="pink-frame-movie">
                 <img class="pink-image-icon" src="/images/movie-posters/dune-part-three.jpg" alt="Dune Part Three">
-
+                <div class="hover-img" id="carousel">
+                    <a href="movie-info.php"><button class="info-tix" id="pink">INFO & TICKETS</button></a>
+                </div>
                 <?= $pinkFrame; ?>
 
             </div>
             <div class="teal-frame-movie">
                 <img class="teal-image-icon" src="/images/movie-posters/the-mandalorian-and-grogu.jpg" alt="Star Wars: The Mandalorian and Grogu poster">
-
+                <div class="hover-img" id="carousel">
+                    <a href="movie-info.php"><button class="info-tix" id="teal">INFO & TICKETS</button></a>
+                </div>
                 <?= $tealFrame; ?>
 
             </div>
             <div class="pink-frame-movie">
                 <img class="pink-image-icon" src="/images/movie-posters/28yearslater.jpg" alt="28 Years Later poster">
-
+                <div class="hover-img" id="carousel">
+                    <a href="movie-info.php"><button class="info-tix" id="pink">INFO & TICKETS</button></a>
+                </div>
                 <?= $pinkFrame; ?>
 
             </div>

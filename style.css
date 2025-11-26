@@ -232,6 +232,35 @@ body {
 
 }
 
+#carousel.hover-img {
+	width: 79%;
+    height: 84%;
+	top:8%;
+    border-radius: 3.82px;
+}
+#carousel.hover-img:hover {
+	opacity: 1;
+}
+
+#teal.info-tix {
+	border: 1px solid var(--turquoise);
+	color: var(--turquoise);
+}
+
+#teal.info-tix:hover {
+	background: var(--turquoise);
+	color: black;
+}
+#pink.info-tix {
+	border: 1px solid var(--pink);
+	color: var(--pink);
+}
+
+#pink.info-tix:hover {
+	background: var(--pink);
+	color: black;
+}
+
 /* Deals Section */
 
 .dealsSection {
@@ -327,6 +356,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	opacity: 0;
+	z-index: 1;
 }
 
 .info-tix {
@@ -352,21 +382,6 @@ body {
 	color: black;
 }
 
-.hover-img:hover{
-	opacity: 1;
-}
-
-.hover-img {
-	height: 100%;
-	width: 100%;
-	background-color: black;
-	/*position: relative;*/
-	/* top:0; */
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	opacity: 0;
-}
 
 .info-tix {
 	width: 10rem;
