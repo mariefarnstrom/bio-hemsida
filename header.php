@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="movie-info.css">
     <link rel="stylesheet" href="media-queries.css">
+    <link rel="stylesheet" href="header.css">
 </head>
 
 <body>
@@ -49,3 +50,5 @@
             </div>
         </div>
     </div>
+
+    </header>
