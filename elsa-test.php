@@ -96,6 +96,9 @@ $newsletterBox = '<svg class="newsletter-box" xmlns="http://www.w3.org/2000/svg"
             <div class="film-carousel">
                 <div class="teal-frame-movie film-hover">
                     <img class="teal-image-icon" src="images/movie-posters/Ash.jpg" alt="Ash poster">
+                    <div class="teal-hover-img">
+                        <a href="movie-info.php"><button class="teal-info-tix">INFO & TICKETS</button></a>
+                    </div>
 
                     <?= $tealFrame ?>
 
