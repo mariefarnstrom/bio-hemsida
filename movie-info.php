@@ -16,16 +16,15 @@ require __DIR__ . '/header.php';
         </div>
         <div class="description">
             <p>Science teacher Ryland Grace (Ryan Gosling) wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge and unorthodox ideas to save everything on Earth from extinction... but an unexpected friendship means he may not have to do it alone.</p>
-            <p class="release-info">RELEASE DATE: March 20, 2026
+            <p>RELEASE DATE: March 20, 2026
                 GENRE: Dystopian Sci-Fi<br>
                 LANGUAGE: English<br>
                 DIRECTORS: Phil Lord, Christopher Miller<br>
                 CAST: Ryan Gosling, Milana Vayntrub, Sandra Hüller</p>
-            <div class="buy-button-cont">
-                <button class="buy-button">Buy ticket</button>
-            </div>
         </div>
     </section>
+
+    <button class="buy-button">Buy ticket</button>
 
     <div class="carousel">
         <button class="carousel-btn prev" onclick="changeSlide(-1)">&#10094;</button>

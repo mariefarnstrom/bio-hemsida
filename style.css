@@ -17,7 +17,6 @@
 * {
 	box-sizing: border-box;
 }
-
 html {
 	font-size: 16px;
 }
@@ -43,6 +42,77 @@ body {
     aspect-ratio: 2 / 3;
 }
 
+/* Header Styling */
+
+header {
+  	width: 100%;
+  	margin: 0 !important;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 14px;
+  	box-sizing: border-box;
+  	gap: 1.25rem;
+  	text-align: center;
+  	font-size: 1.75rem;
+  	color: #48e5e1;
+  	font-family: 'Text Me One';
+}
+.futurity-logo {
+  	width: 18.125rem;
+  	position: relative;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+.header-links {
+  	display: flex;
+  	align-items: center;
+  	gap: 18px;
+}
+.home {
+  	height: 2.063rem;
+  	width: 4.813rem;
+  	position: relative;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-shrink: 0;
+  	text-shadow: 0px 0px 5px rgba(98, 250, 255, 0.89);
+}
+.theaters {
+  	height: 2.063rem;
+  	width: 7.563rem;
+  	position: relative;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-shrink: 0;
+  	text-shadow: 0px 0px 5px rgba(98, 250, 255, 0.89);
+}
+.showtimes {
+  	height: 2.063rem;
+  	width: 9.375rem;
+  	position: relative;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-shrink: 0;
+  	text-shadow: 0px 0px 5px rgba(98, 250, 255, 0.89);
+}
+.search-icon {
+  	width: 2.375rem;
+  	position: relative;
+  	max-height: 100%;
+}
+.alien-icon {
+  	width: 2.438rem;
+  	position: relative;
+  	max-height: 100%;
+  	object-fit: cover;
+}
+
 /* Body */
 
 /* Hero Styling */
@@ -57,7 +127,7 @@ body {
     align-items: flex-start;
     /* padding: 95px 257px; */
     box-sizing: border-box;
-    padding: 80px;
+    padding: 5rem;
 
 }
 .hero-text {
@@ -121,16 +191,16 @@ body {
 }
 .camera-icon {
   	position: relative;
-    top: 10px;
-    left: 60px;
-    width: 45px;
-    height: 45px;
+    top: 0.625rem;
+    left: 3.75rem;
+    width: 2.813rem;
+    height: 2.813rem;
     object-fit: cover;
 }
 
 .film-container {
   	align-self: stretch;
-  	height: 395px;
+  	height: 24.688rem;
   	display: flex;
   	align-items: center;
   	/* justify-content: center; */
@@ -138,12 +208,13 @@ body {
 .film-carousel {
   	width: 100%;
   	overflow-x: auto;
+	overflow-y: hidden;
   	flex-shrink: 0;
   	display: flex;
   	align-items: center;
   	padding: 11.5px 10.5px;
   	box-sizing: border-box;
-  	gap: 28.7px;
+  	gap: 1.794rem;
 }
 
 .film-carousel::-webkit-scrollbar {
@@ -152,8 +223,8 @@ body {
 }
 
 .teal-frame-movie {
-  	height: 371.8px;
-  	width: 257.1px;
+  	height: 23.238rem;
+  	width: 16.069rem;
   	position: relative;
   	flex-shrink: 0;
 	display: flex;
@@ -189,8 +260,8 @@ body {
 }
 
 .pink-frame-movie {
-  	height: 371.8px;
-  	width: 257.1px;
+  	height: 23.238rem;
+  	width: 16.069rem;
   	position: relative;
   	flex-shrink: 0;
 	display: flex;
@@ -266,7 +337,7 @@ body {
 	font-size: 2.5rem;
 	font-weight: lighter;
 	text-decoration: underline;
-	text-decoration-thickness: 2px;
+	text-decoration-thickness: 0.125rem;
 	text-underline-offset: 0.8rem;
 	font-family: 'Text Me One';
 	color: rgba(255, 221, 98, 0.89);
@@ -305,12 +376,51 @@ body {
 	border-radius: 3.2px;
 	box-shadow: 0 0 10.413px 0 var(--yellow);
 	margin: 1rem;
+	position: relative;
 }
 
 .classicCover {
 	height: 24rem;
 	width: 16rem;
-	object-fit: cover;
+}
+
+.hover-img:hover{
+	opacity: 1;
+}
+
+.hover-img {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	top:0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+}
+
+.info-tix {
+	width: 10rem;
+	height: 3rem;
+	background: none;
+	border-radius: 0.25rem;
+	box-shadow: none;
+	border: 1px solid var(--yellow);
+	color: var(--yellow);
+	text-shadow: none;
+	text-align: center;
+	font-family: "Text Me One";
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	align-self: center;
+}
+
+.info-tix:hover {
+	background: var(--yellow);
+	color: black;
 }
 
 .hover-img:hover{
@@ -360,7 +470,7 @@ body {
 	font-size: 2.5rem;
 	font-weight: lighter;
 	text-decoration: underline;
-	text-decoration-thickness: 2px;
+	text-decoration-thickness: 0.125rem;
 	text-underline-offset: 0.8rem;
 	font-family: 'Text Me One';
 	color: #ff99f3;
@@ -386,7 +496,7 @@ body {
 	font-size: 1.944rem;
 	font-weight: lighter;
 	text-decoration: underline;
-	text-decoration-thickness: 1.5px;
+	text-decoration-thickness: 0.094rem;
 	text-underline-offset: 0.6rem;
 	font-family: 'Text Me One';
 	color: rgba(98, 250, 255, 0.89);
@@ -406,11 +516,20 @@ body {
 	box-shadow: 0 0 10.413px 0 var(--pink-shadow);
 	border-radius: 3.2px;
 	padding-left: .25rem;
+	height: 13.4375rem;
 }
 
 .drinkImageFrame {
+	height: 12rem;
+	width: 12rem;
 	margin: 0.5rem;
 	margin-top: 0.6rem;
+}
+
+.drinkImage {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
 
 .drinkDeal {
@@ -448,7 +567,7 @@ body {
 	font-size: 1.944rem;
 	font-weight: lighter;
 	text-decoration: underline;
-	text-decoration-thickness: 1.5px;
+	text-decoration-thickness: 0.094rem;
 	text-underline-offset: 0.6rem;
 	font-family: 'Text Me One';
 	color: #ff99f3;
@@ -464,7 +583,7 @@ body {
 	margin-bottom: 1rem;
 	margin-left: 1rem;
 	margin-right: 1rem;
-	width: 13.919rem;
+	/* width: 13.919rem; */
 	height: 7.113rem;
 	position: relative;
 	font-size: 1.944rem;

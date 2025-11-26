@@ -85,6 +85,63 @@
     overflow: hidden;
 }
 
+@media (max-width: 1024px){
+    .carousel-btn {
+    opacity: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .movieInfo p {
+        font-size: 2rem;
+    }
+
+    .buy-button {
+
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .carousel-images {
+        height: 400px;
+    }
+
+    .cam-titel {
+        width: 800px;
+    }
+
+    .movieName {
+        font-size: 4rem;
+    }
+
+    .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 10px 5px;
+    cursor: pointer;
+    z-index: 10;
+    transition: background 0.3s;
+    }
+
+    .carousel-btn:hover {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .prev {
+        left: 10px;
+    }
+
+    .next {
+        right: 10px;
+    }
+}
+
 .carousel-slide {
     position: absolute;
     width: 100%;
@@ -199,75 +256,4 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-
-@media (min-width: 768px) {
-    .movieInfo p {
-        font-size: 1rem;
-    }
-
-    .release-info {
-        padding-bottom: 60px;
-    }
-
-    .buy-button-cont {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    .movieInfo {
-    display: flex;
-    flex-direction: row;
-    width: 80vw;
-    gap: 40px;
-    }
-    
-    .carousel-images {
-        height: 400px;
-    }
-
-    .cam-titel {
-        width: 800px;
-    }
-
-    .cam-titel img {
-        width: 6%;
-        height: 6%;
-    }
-
-    .movieName {
-        font-size: 2.5rem;
-    }
-
-    .coverHolder img {
-        width: 30vw;
-    }
-
-    .carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-100%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    font-size: 30px;
-    padding: 10px 5px;
-    cursor: pointer;
-    z-index: 10;
-    transition: background 0.3s;
-    opacity: 0;
-    }
-
-    .carousel-btn:hover {
-        background: rgba(0, 0, 0, 0.8);
-    }
-
-    .prev {
-        left: 10px;
-    }
-
-    .next {
-        right: 10px;
-    }
 }

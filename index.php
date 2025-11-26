@@ -22,35 +22,41 @@ require __DIR__ . '/variables.php';
         <div class="film-carousel">
             <div class="teal-frame-movie">
                 <img class="teal-image-icon" src="images/movie-posters/Ash.jpg" alt="Ash poster">
-                <?= $tealFrame ?>
-            </div>
 
+                <?= $tealFrame ?>
+
+            </div>
             <div class="pink-frame-movie">
                 <img class="pink-image-icon" src="/images/movie-posters/mickey17.jpg" alt="Mickey 17 poster">
-                <?= $pinkFrame; ?>
-            </div>
 
+                <?= $pinkFrame; ?>
+
+            </div>
             <div class="teal-frame-movie">
                 <img class="teal-image-icon" src="/images/movie-posters/star-trek-section-31.jpg" alt="Star Trek: Section 31 poster">
-                <?= $tealFrame; ?>
-            </div>
 
+                <?= $tealFrame; ?>
+
+            </div>
             <div class="pink-frame-movie">
                 <img class="pink-image-icon" src="/images/movie-posters/tron-ares.jpg" alt="Tron: Ares poster">
-                <?= $pinkFrame; ?>
-            </div>
 
+                <?= $pinkFrame; ?>
+
+            </div>
             <div class="teal-frame-movie">
                 <img class="teal-image-icon" src="/images/movie-posters/predator-badlands.jpeg" alt="Predator: Badlands poster">
-                <?= $tealFrame; ?>
-            </div>
 
+                <?= $tealFrame; ?>
+
+            </div>
             <div class="pink-frame-movie">
                 <img class="pink-image-icon" src="/images/movie-posters/companion.jpg" alt="Companion poster">
+
                 <?= $pinkFrame; ?>
+
             </div>
         </div>
-        </a>
     </div>
 </section>
 <section class="dealsSection">
@@ -145,24 +151,6 @@ require __DIR__ . '/variables.php';
         </form>
     </div>
 </section>
-
-<script>
-    function toggleMenu() {
-        const menu = document.querySelector('.mobile-menu');
-        const hamburger = document.querySelector('.hamburger');
-        const body = document.body;
-
-        menu.classList.toggle('active');
-        hamburger.classList.toggle('active');
-
-        // Förhindra scrollning när menyn är öppen
-        if (menu.classList.contains('active')) {
-            body.style.overflow = 'hidden';
-        } else {
-            body.style.overflow = '';
-        }
-    }
-</script>
 
 <?php
 require __DIR__ . '/footer.php';
