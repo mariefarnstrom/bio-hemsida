@@ -3,24 +3,58 @@
         font-size: 9px;
     }
 
+    .film-container {
+        height: 28rem;
+    }
+
+    .film-carousel {
+      	gap: 0.7rem;
+    }
+
+    .pink-frame-movie, .teal-frame-movie {
+        height: 27.8856rem;
+        width: 19.2828rem;
+    }
+
     .dealsSection {        
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .classicOfTheMonth {
         width: 75%;
     }
 
+    .classicHeading {
+        width: 25rem;
+        font-size: 1.9rem;
+        margin: 0;
+    }
+
+    .classicCover {
+        height: 16rem;
+        width: 10.66rem;
+    }
+
     .deals {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        padding-top: 0;
+    }
+
+    .dealsHeading {
+        font-size: 1.9rem;
+        margin: 0;
     }
 
     .drinkDealFrame {
-        width: 90%;
+        width: 55%;
+        gap: 0;
+        height: 10.5rem;
     }
     
     .drinkImageFrame {
@@ -28,13 +62,18 @@
         width: 9rem;
     }
 
-    .drinkHeading, .drinkDeal, .foodHeading, .foodDeal {
-        font-size: 1.2rem;
+    .drinkTextFrame {
+        margin-right: 0;
+    }
+
+    .drinkHeading, .drinkDeal, .foodHeading, .foodDeal, .classicTitle {
+        font-size: 1.5rem;
         height: 4rem;
     }
 
     .foodFrame {
-        width: 50%;
+        width: 35%;
+        margin-top: 1.5rem;
     }
 
 }
