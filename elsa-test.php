@@ -101,7 +101,9 @@ $newsletterBox = '<svg class="newsletter-box" xmlns="http://www.w3.org/2000/svg"
                     </div>
 
                     <?= $tealFrame ?>
-
+                    <div class="movie-title">
+                        <h3 class="title-name">ASH</h3>
+                    </div>
                 </div>
                 <div class="pink-frame-movie film-hover">
                     <img class="pink-image-icon" src="/images/movie-posters/mickey17.jpg" alt="Mickey 17 poster">

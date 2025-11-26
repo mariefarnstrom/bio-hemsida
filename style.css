@@ -14,6 +14,10 @@
     --inter-font: 'Inter', sans-serif;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 html {
 	font-size: 16px;
 }
@@ -222,6 +226,12 @@ body {
     filter: drop-shadow(0 0 12.424px #FF2EE7);
 }
 
+.movie-title {
+	position: relative;
+	bottom: 0;
+
+}
+
 /* Deals Section */
 
 .dealsSection {
@@ -301,6 +311,45 @@ body {
 	height: 24rem;
 	width: 16rem;
 	object-fit: cover;
+}
+
+.hover-img:hover{
+	opacity: 1;
+}
+
+.hover-img {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	position: relative;
+	/* top:0; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+}
+
+.info-tix {
+	width: 10rem;
+	height: 3rem;
+	background: none;
+	border-radius: 0.25rem;
+	box-shadow: none;
+	border: 1px solid var(--yellow);
+	color: var(--yellow);
+	text-shadow: none;
+	text-align: center;
+	font-family: "Text Me One";
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	align-self: center;
+}
+
+.info-tix:hover {
+	background: var(--yellow);
+	color: black;
 }
 
 .dealsHeading {
