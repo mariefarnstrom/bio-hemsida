@@ -26,6 +26,7 @@
     font-size: 2.5rem;
     width: max-content;
     margin-bottom: 0px;
+    text-transform: uppercase;
 }
 
 .coverHolder img {
@@ -117,8 +118,8 @@
 .page-number {
   position: absolute;
   bottom: 16px;
-  left: 16px;
-  border: 1px solid var(--darkgreen, #1F2B28);
+  right: 16px;
+  border: 1px solid white;
   background: rgba(37, 37, 37, 0.6);
   border-radius: 4px;
   padding: 8px;
@@ -146,9 +147,117 @@
     border: none;
 }
 
+ .dealsHeading {
+        color: #FF99F3;
+        text-align: center;
+        text-shadow: 0 0 5px #FF2EE7;
+        font-family: "Text Me One";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .dealsOfTheWeek img {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+
+    .drinkHeading, .foodHeading {
+        color: rgba(98, 250, 255, 0.89);
+        text-align: center;
+        text-shadow: 0 0 12.64px rgba(98, 250, 255, 0.89);
+        font-family: var(--font-base);
+        font-size: 31.115px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .drinkDeal, .foodDeal {
+        color: rgba(255, 221, 98, 0.89);
+        text-align: center;
+        text-shadow: 0 0 12.64px rgba(255, 221, 98, 0.89);
+        font-family: var(--font-base);
+        font-size: 31.115px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .newsletter-form label {
+        display: flex;
+        width: 275px;
+        height: 60px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #FF99F3;
+        /* text-align: center; */
+        text-shadow: 0 0 9.351px #FF2EE7;
+        font-family: var(--font-base);
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-skip-ink: auto;
+        text-decoration-thickness: auto;
+        text-underline-offset: 13.5%;
+        text-underline-position: from-font;
+        text-transform: uppercase;
+    }
+
+    .newsletter-form button {
+        display: flex;
+        width: 275px;
+        height: 60px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #FF99F3;
+        /* text-align: center; */
+        text-shadow: 0 0 9.351px #FF2EE7;
+        font-family: var(--font-base);
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-skip-ink: auto;
+        text-decoration-thickness: auto;
+        text-underline-offset: 13.5%;
+        text-underline-position: from-font;
+        text-transform: uppercase;
+    }
+
+    .newsletter-form input {
+        display: flex;
+        width: 280px;
+        height: 30px;
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        /* flex-shrink: 0; */
+        color: rgba(98, 250, 255, 0.89);
+        /* text-align: center; */
+        text-shadow: 0 0 9.351px rgba(98, 250, 255, 0.89);
+        font-family: var(--font-base);
+        /* font-size: 20px; */
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
 @media (min-width: 768px) {
     .movieInfo p {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .release-info {
@@ -200,94 +309,16 @@
     .coverHolder img {
         width: 30vw;
     } 
-
-    .dealsOfTheWeek h2 {
-        color: #FF99F3;
-        text-align: center;
-        text-shadow: 0 0 5px #FF2EE7;
-        font-family: "Text Me One";
-        font-size: 2rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-transform: uppercase;
-    }
-
-    .dealsOfTheWeek img {
-        display: flex;
-        flex-direction: column;
-        justify-self: center;
-    }
-
-    .dealsOfTheWeek h3 {
-        color: rgba(98, 250, 255, 0.89);
-        text-align: center;
-        text-shadow: 0 0 12.64px rgba(98, 250, 255, 0.89);
-        font-family: var(--font-base);
-        font-size: 31.115px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-transform: uppercase;
-    }
-
-    .dealsOfTheWeek p {
-        color: rgba(255, 221, 98, 0.89);
-        text-align: center;
-        text-shadow: 0 0 12.64px rgba(255, 221, 98, 0.89);
-        font-family: var(--font-base);
-        font-size: 31.115px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-transform: uppercase;
-    }
-
-    .signUp h3 {
-        display: flex;
-        width: 274.875px;
-        height: 68.685px;
-        flex-direction: column;
-        justify-content: center;
-        flex-shrink: 0;
-        color: #FF99F3;
-        text-align: center;
-        text-shadow: 0 0 9.351px #FF2EE7;
-        font-family: var(--font-base);
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-decoration-line: underline;
-        text-decoration-style: solid;
-        text-decoration-skip-ink: auto;
-        text-decoration-thickness: auto;
-        text-underline-offset: 13.5%; /* 4.32px */
-        text-underline-position: from-font;
-        text-transform: uppercase;
-    }
-
-    .signUp p {
-        display: flex;
-        width: 279.965px;
-        height: 16.131px;
-        flex-direction: column;
-        justify-content: center;
-        flex-shrink: 0;
-        color: rgba(98, 250, 255, 0.89);
-        text-align: center;
-        text-shadow: 0 0 9.351px rgba(98, 250, 255, 0.89);
-        font-family: var(--font-base);
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-transform: uppercase;
-    }
 }
 
-@media (max-width: 1024px){
+@media (max-width: 768px){
     .movie {
         width: 100%;
+    }
+
+    .drinkDealFrame {
+        width: auto;
+        gap: 0;
+        height: 10.5rem;
     }
 }
