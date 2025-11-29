@@ -1,5 +1,6 @@
 <?php
 require __DIR__ . '/header.php';
+require __DIR__ . '/variables.php';
 ?>
 
 <!-- insert camera icon -->
@@ -21,50 +22,69 @@ require __DIR__ . '/header.php';
                 LANGUAGE: English<br>
                 DIRECTORS: Phil Lord, Christopher Miller<br>
                 CAST: Ryan Gosling, Milana Vayntrub, Sandra Hüller</p>
+            <div class="buy-button-cont">
+                <button class="buy-button">Buy ticket</button>
+            </div>
         </div>
     </section>
 
-    <button class="buy-button">Buy ticket</button>
+    <section class="product-images">
+        <?php $total = 4; ?>
 
-    <div class="carousel">
-        <button class="carousel-btn prev" onclick="changeSlide(-1)">&#10094;</button>
-
-        <div class="carousel-images">
-            <img src="/images/movie-images/phm1.jpg" alt="Bild 1" class="carousel-slide active">
-            <img src="/images/movie-images/phm2.jpg" alt="Bild 2" class="carousel-slide">
-            <img src="/images/movie-images/phm3.jpg" alt="Bild 3" class="carousel-slide">
-            <img src="/images/movie-images/phm4.jpg" alt="Bild 4" class="carousel-slide">
+        <div class="image-wrapper">
+            <img src="images/movie-images/phm1.jpg" alt="Project Hail Mary picture 1" />
+            <div class="page-number">1/<?= $total ?></div>
         </div>
 
-        <button class="carousel-btn next" onclick="changeSlide(1)">&#10095;</button>
-
-        <!-- Prickar för att visa vilken bild (valfritt) -->
-        <div class="carousel-dots">
-            <span class="dot active" onclick="goToSlide(0)"></span>
-            <span class="dot" onclick="goToSlide(1)"></span>
-            <span class="dot" onclick="goToSlide(2)"></span>
-            <span class="dot" onclick="goToSlide(3)"></span>
+        <div class="image-wrapper">
+            <img src="images/movie-images/phm2.jpg" alt="Project Hail Mary picture 2" />
+            <div class="page-number">2/<?= $total ?></div>
         </div>
+
+        <div class="image-wrapper">
+            <img src="images/movie-images/phm3.jpg" alt="Project Hail Mary picture 3" />
+            <div class="page-number">3/<?= $total ?></div>
+        </div>
+
+        <div class="image-wrapper">
+            <img src="images/movie-images/phm4.jpg" alt="Project Hail Mary picture 4" />
+            <div class="page-number">4/<?= $total ?></div>
+        </div>
+    </section>
+
+    <div class="trailer-container">
+        <video></video>
     </div>
 </div>
-<section class="dealsOfTheWeek">
-    <h2>DEALS OF THE WEEK</h2>
-    <div>
-        <div>
-            <img src="images/octopus-glass 1.png">
+
+<section class="dealsSection">
+    <article class="deals">
+        <h2 class="dealsHeading">DEALS OF THE WEEK</h2>
+        <div class="drinkDealFrame">
+            <div class="drinkImageFrame">
+                <img class="drinkImage" src="images/octopus-glass 1.png">
+            </div>
+            <div class="drinkTextFrame">
+                <h3 class="drinkHeading">DRINK SPECIAL</h3>
+                <p class="drinkDeal">STAR JELLY SOUR - $10</p>
+            </div>
         </div>
-        <h3>DRINK SPECIAL</h3>
-        <p>STAR JELLY SOUR - $10</p>
-    </div>
-    <div>
-        <h3>FOOD SPECIAL</h3>
-        <p>BOGO POPCORN - $5</p>
+        <div class="foodFrame">
+            <h3 class="foodHeading">FOOD SPECIAL</h3>
+            <p class="foodDeal">BOGO POPCORN - $5</p>
+        </div>
+    </article>
+</section>
+<section class="newsletter-container">
+    <?= $newsletterBox; ?>
+    <div class="newsletter-form">
+        <form action="/index.php" method="post" enctype="text/plain">
+            <label for="email">SIGN UP FOR OUR NEWSLETTER</label>
+            <input type="email" name="email" id="email" placeholder="ENTER YOUR EMAIL HERE">
+            <button class="button" type="submit">SUBMIT</button>
+        </form>
     </div>
 </section>
-<article class="signUp">
-    <h3>SIGN UP FOR OUR NEWSLETTER</h3>
-    <p>ENTER YOUR EMAIL HERE</p>
-</article>
 
 <?php
 require __DIR__ . '/footer.php';
