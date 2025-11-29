@@ -17,7 +17,7 @@ require __DIR__ . '/variables.php';
         </div>
         <div class="description">
             <p>Science teacher Ryland Grace (Ryan Gosling) wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge and unorthodox ideas to save everything on Earth from extinction... but an unexpected friendship means he may not have to do it alone.</p>
-            <p>RELEASE DATE: March 20, 2026
+            <p class="release-info">RELEASE DATE: March 20, 2026
                 GENRE: Dystopian Sci-Fi<br>
                 LANGUAGE: English<br>
                 DIRECTORS: Phil Lord, Christopher Miller<br>
@@ -28,12 +28,23 @@ require __DIR__ . '/variables.php';
         </div>
     </section>
 
+<<<<<<< HEAD
     <section class="product-images">
         <?php $total = 4; ?>
 
         <div class="image-wrapper">
             <img src="images/movie-images/phm1.jpg" alt="Project Hail Mary picture 1" />
             <div class="page-number">1/<?= $total ?></div>
+=======
+    <div class="carousel">
+        <button class="carousel-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+
+        <div class="carousel-images">
+            <img src="/images/movie-images/phm1.jpg" alt="Bild 1" class="carousel-slide active">
+            <img src="/images/movie-images/phm2.jpg" alt="Bild 2" class="carousel-slide">
+            <img src="/images/movie-images/phm3.jpg" alt="Bild 3" class="carousel-slide">
+            <img src="/images/movie-images/phm4.jpg" alt="Bild 4" class="carousel-slide">
+>>>>>>> d2c2a1a81079438c71a02e62fa70ee5074fd337e
         </div>
 
         <div class="image-wrapper">
