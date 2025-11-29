@@ -52,7 +52,7 @@
     }
 
     .drinkDealFrame {
-        width: 23rem;
+        width: 55%;
         gap: 0;
         height: 10.5rem;
     }
@@ -72,17 +72,8 @@
     }
 
     .foodFrame {
-        width: 13rem;
+        width: 35%;
         margin-top: 1.5rem;
-    }
-
-    .newsletter-box {
-        height: 15rem;
-        width: 25rem;
-    }
-
-    form label {
-        font-size: 1.7rem;
     }
 
 }
