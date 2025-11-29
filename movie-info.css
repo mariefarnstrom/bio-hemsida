@@ -147,7 +147,7 @@
     border: none;
 }
 
- .dealsHeading {
+ .dealsHead {
         color: #FF99F3;
         text-align: center;
         text-shadow: 0 0 5px #FF2EE7;
@@ -165,7 +165,7 @@
         justify-self: center;
     }
 
-    .drinkHeading, .foodHeading {
+    .drinks-special, .foods-special {
         color: rgba(98, 250, 255, 0.89);
         text-align: center;
         text-shadow: 0 0 12.64px rgba(98, 250, 255, 0.89);
@@ -177,7 +177,7 @@
         text-transform: uppercase;
     }
 
-    .drinkDeal, .foodDeal {
+    .drinksDeal, .foodsDeal {
         color: rgba(255, 221, 98, 0.89);
         text-align: center;
         text-shadow: 0 0 12.64px rgba(255, 221, 98, 0.89);
@@ -189,7 +189,7 @@
         text-transform: uppercase;
     }
 
-    .newsletter-form label {
+    .newsletter-form-movie label {
         display: flex;
         width: 275px;
         height: 60px;
@@ -213,7 +213,7 @@
         text-transform: uppercase;
     }
 
-    .newsletter-form button {
+    .newsletter-form-movie button {
         display: flex;
         width: 275px;
         height: 60px;
@@ -237,7 +237,7 @@
         text-transform: uppercase;
     }
 
-    .newsletter-form input {
+    .newsletter-form-movie input {
         display: flex;
         width: 280px;
         height: 30px;

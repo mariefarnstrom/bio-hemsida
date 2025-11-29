@@ -66,25 +66,25 @@ require __DIR__ . '/variables.php';
 
 <section class="dealsSection">
     <article class="deals">
-        <h2 class="dealsHeading">Deals of the week</h2>
+        <h2 class="dealsHead">Deals of the week</h2>
         <div class="drinkDealFrame">
             <div class="drinkImageFrame">
                 <img class="drinkImage" src="images/octopus-glass 1.png">
             </div>
             <div class="drinkTextFrame">
-                <h3 class="drinkHeading">Drink special</h3>
-                <p class="drinkDeal">Star jelly sour - $10</p>
+                <h3 class="drinks-special">Drink special</h3>
+                <p class="drinksDeal">Star jelly sour - $10</p>
             </div>
         </div>
         <div class="foodFrame">
-            <h3 class="foodHeading">food special</h3>
-            <p class="foodDeal">bogo popcorn - $5</p>
+            <h3 class="foods-special">food special</h3>
+            <p class="foodsDeal">bogo popcorn - $5</p>
         </div>
     </article>
 </section>
 <section class="newsletter-container">
     <?= $newsletterBox; ?>
-    <div class="newsletter-form">
+    <div class="newsletter-form-movie">
         <form action="/index.php" method="post" enctype="text/plain">
             <label for="email">sign up for our newsletter</label>
             <input type="email" name="email" id="email" placeholder="ENTER YOUR EMAIL HERE">
