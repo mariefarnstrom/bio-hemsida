@@ -28,7 +28,7 @@ require __DIR__ . '/variables.php';
         </div>
     </section>
 
-    <section class="product-images">
+    <section class="movie-images">
         <?php $total = 4; ?>
 
         <div class="image-wrapper">
@@ -53,7 +53,14 @@ require __DIR__ . '/variables.php';
     </section>
 
     <div class="trailer-container">
-        <video></video>
+        <iframe
+            src="https://www.youtube.com/embed/m08TxIsFTRI"
+            title="Project Hail Mary - Official Trailer"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>"
     </div>
 </div>
 
