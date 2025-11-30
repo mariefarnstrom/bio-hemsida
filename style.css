@@ -157,6 +157,13 @@ h4 {
 	width: 0px;
 }
 
+.film-carousel h4 {
+	text-transform: uppercase;
+}
+
+.pink-title {
+	color: var(--pink);
+}
 .teal-frame-movie {
   	height: 23.238rem;
   	width: 16.069rem;
