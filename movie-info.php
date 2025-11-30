@@ -35,7 +35,7 @@ $newsletterCont = '<svg class="newsletterCont" xmlns="http://www.w3.org/2000/svg
         </div>
         <div class="description">
             <p>Science teacher Ryland Grace (Ryan Gosling) wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge and unorthodox ideas to save everything on Earth from extinction... but an unexpected friendship means he may not have to do it alone.</p>
-            <p>RELEASE DATE: March 20, 2026
+            <p>RELEASE DATE: March 20, 2026<br>
                 GENRE: Dystopian Sci-Fi<br>
                 LANGUAGE: English<br>
                 DIRECTORS: Phil Lord, Christopher Miller<br>
@@ -85,7 +85,7 @@ $newsletterCont = '<svg class="newsletterCont" xmlns="http://www.w3.org/2000/svg
 <section class="calendar-container">
     <div class="calendar-day">
         <div class="date">
-            <p>7 nov</p>
+            <p>3 dec</p>
         </div>
         <div class="time">
             <p class="early">19:20</p>
@@ -93,22 +93,64 @@ $newsletterCont = '<svg class="newsletterCont" xmlns="http://www.w3.org/2000/svg
         </div>
         <img src="images/icons/Union.svg">
     </div>
-    <div>
+    <div class="calendar-day">
+        <div class="date">
+            <p>4 dec</p>
+        </div>
+        <div class="time">
+            <p class="early">18:00</p>
+            <p class="late">20:30</p>
+        </div>
         <img src="images/icons/Union.svg">
     </div>
-    <div>
+    <div class="calendar-day">
+        <div class="date">
+            <p>5 dec</p>
+        </div>
+        <div class="time">
+            <p class="early">19:35</p>
+            <p class="late">21:40</p>
+        </div>
         <img src="images/icons/Union.svg">
     </div>
-    <div>
+    <div class="calendar-day">
+        <div class="date">
+            <p>6 dec</p>
+        </div>
+        <div class="time">
+            <p class="early">17:50</p>
+            <p class="late">19:40</p>
+        </div>
         <img src="images/icons/Union.svg">
     </div>
-    <div>
+    <div class="calendar-day">
+        <div class="date">
+            <p>7 dec</p>
+        </div>
+        <div class="time">
+            <p class="early">18:00</p>
+            <p class="late">20:30</p>
+        </div>
         <img src="images/icons/Union.svg">
     </div>
-    <div>
+    <div class="calendar-day">
+        <div class="date">
+            <p>8 dec</p>
+        </div>
+        <div class="time">
+            <p class="early">19:20</p>
+            <p class="late">21:30</p>
+        </div>
         <img src="images/icons/Union.svg">
     </div>
-    <div>
+    <div class="calendar-day">
+        <div class="date">
+            <p>9 dec</p>
+        </div>
+        <div class="time">
+            <p class="early">20:00</p>
+            <p class="late">21:45</p>
+        </div>
         <img src="images/icons/Union.svg">
     </div>
 </section>
