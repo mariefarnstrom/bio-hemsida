@@ -24,7 +24,7 @@ $newsletterCont = '<svg class="newsletterCont" xmlns="http://www.w3.org/2000/svg
 <!-- insert camera icon -->
 <div class="movie">
     <div class="cam-titel">
-        <img src="/images/icons/camera-icon.png" alt="camera-icon">
+        <img src="images/icons/camera-icon.png" alt="camera-icon">
         <h1 class="movieName">
             Project Hail Mary
         </h1>
@@ -81,6 +81,37 @@ $newsletterCont = '<svg class="newsletterCont" xmlns="http://www.w3.org/2000/svg
         </iframe>"
     </div>
 </div>
+
+<section class="calendar-container">
+    <div>
+        <div class="date">
+            <p>7 nov</p>
+        </div>
+        <div class="time">
+            <p>19:20</p>
+            <p>21:30</p>
+        </div>
+        <img src="images/icons/Union.svg">
+    </div>
+    <div>
+        <img src="images/icons/Union.svg">
+    </div>
+    <div>
+        <img src="images/icons/Union.svg">
+    </div>
+    <div>
+        <img src="images/icons/Union.svg">
+    </div>
+    <div>
+        <img src="images/icons/Union.svg">
+    </div>
+    <div>
+        <img src="images/icons/Union.svg">
+    </div>
+    <div>
+        <img src="images/icons/Union.svg">
+    </div>
+</section>
 
 <section class="dealsSection">
     <article class="deals">

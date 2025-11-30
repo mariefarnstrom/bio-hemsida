@@ -145,6 +145,45 @@
     border: none;
 }
 
+.calendar-container {
+    width: 80vw;
+    height: 25vw;
+    display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	border: var(--pink) 1px solid ;
+	box-shadow: var(--pink-shadow) 0 0 10.413px 0;
+	border-radius: 3.2px;
+}
+
+.calendar-container img {
+    position: relative;
+    height: 12vw;
+}
+
+.date p {
+    position: absolute;
+    font-family: var(--inter-font);
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: aliceblue;
+    z-index: 1;
+    display: flex;
+    justify-self: center;
+}
+
+.time {
+    display: flex;
+}
+
+.time p {
+    position: absolute;
+    font-family: var(--inter-font);
+    font-size: 1rem;
+    color: aliceblue;
+}
+
  .dealsHead {
     color: #FF99F3;
     text-align: center;
@@ -433,15 +472,22 @@
     .cam-titel img {
         width: 6%;
         height: 6%;
+        display: flex;
+        align-self: center;
     }
 
     .movieName {
         font-size: 2.5rem;
+        margin-bottom: 20px;
     }
 
     .coverHolder img {
         width: 30vw;
     } 
+
+    .calendar-container img {
+    height: 14vw;
+}
 }
 
 @media (min-width: 1024px) {
@@ -451,6 +497,11 @@
 
     .newsletterCont {
         height: 50%;
+    }
+
+    .cam-titel img {
+        width: 8%;
+        height: 8%;
     }
 }
 
