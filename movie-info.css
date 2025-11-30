@@ -383,7 +383,7 @@
 }
  
     .newsletter-form-movie label {
-        width: 17.18rem;
+    width: 17.18rem;
 	padding: .5rem;
     color: var(--pink);
     text-align: center;
@@ -400,7 +400,7 @@
     text-underline-offset: 10%;
     text-underline-position: from-font;
 	padding-top: 0;
-        text-transform: uppercase;
+    text-transform: uppercase;
     }
 
     .newsletter-form-movie button {
@@ -542,7 +542,7 @@
 
 .date p {
     position: absolute;
-    font-family: var(--inter-font);
+    font-family: var(--font-base);
     font-size: 1rem;
     text-transform: uppercase;
     color: aliceblue;
@@ -557,6 +557,10 @@
     position: absolute;
     align-self: center;
     flex-direction: column;
+}
+
+.time p {
+    font-family: var(--font-base);
 }
 
 .early {
