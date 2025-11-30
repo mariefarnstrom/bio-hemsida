@@ -83,13 +83,13 @@ $newsletterCont = '<svg class="newsletterCont" xmlns="http://www.w3.org/2000/svg
 </div>
 
 <section class="calendar-container">
-    <div>
+    <div class="calendar-day">
         <div class="date">
             <p>7 nov</p>
         </div>
         <div class="time">
-            <p>19:20</p>
-            <p>21:30</p>
+            <p class="early">19:20</p>
+            <p class="late">21:30</p>
         </div>
         <img src="images/icons/Union.svg">
     </div>

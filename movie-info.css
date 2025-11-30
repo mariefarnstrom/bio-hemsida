@@ -159,7 +159,13 @@
 
 .calendar-container img {
     position: relative;
-    height: 12vw;
+    height: 20vw;
+}
+
+.calendar-day {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .date p {
@@ -175,9 +181,22 @@
 
 .time {
     display: flex;
+    z-index: 1;
+    position: absolute;
+    align-self: center;
+    flex-direction: column;
 }
 
-.time p {
+.early {
+    margin-bottom: 5px;
+    /* position: absolute; */
+    font-family: var(--inter-font);
+    font-size: 1rem;
+    color: aliceblue;
+    margin-top: 50px;
+}
+
+.late {
     position: absolute;
     font-family: var(--inter-font);
     font-size: 1rem;
@@ -509,6 +528,52 @@
         width: 8%;
         height: 8%;
     }
+
+   /*  .calendar-container img {
+    position: relative;
+    height: 12vw;
+} */
+
+.calendar-day {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.date p {
+    position: absolute;
+    font-family: var(--inter-font);
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: aliceblue;
+    z-index: 1;
+    display: flex;
+    justify-self: center;
+}
+
+.time {
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    align-self: center;
+    flex-direction: column;
+}
+
+.early {
+    margin-bottom: 1px;
+    /* position: absolute; */
+    font-family: var(--inter-font);
+    font-size: 1rem;
+    color: aliceblue;
+    margin-top: 50px;
+}
+
+.late {
+    position: absolute;
+    font-family: var(--inter-font);
+    font-size: 1rem;
+    color: aliceblue;
+}
 }
 
 @media (max-width: 768px){
