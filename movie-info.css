@@ -151,7 +151,7 @@
     display: flex;
     gap: 10px;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     border: var(--pink) 1px solid;
     box-shadow: var(--pink-shadow) 0 0 10.413px 0;
     border-radius: 3.2px;
@@ -164,6 +164,7 @@
 }
 
 .calendar-day {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -512,8 +513,10 @@
 
     .calendar-container {
         width: 80vw;
+        height: 25vw;
         margin: 60px 0px;
         overflow: visible;
+        justify-content: center;
     }
 }
 
