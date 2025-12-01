@@ -453,7 +453,7 @@
     .buy-button-cont {
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: left;
         margin-top: 60px;
     }
 
