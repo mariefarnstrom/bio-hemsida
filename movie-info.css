@@ -537,9 +537,9 @@
     .date p {
         position: absolute;
         font-family: var(--font-base);
-        font-size: 1rem;
+        font-size: 1.25rem;
         text-transform: uppercase;
-        color: aliceblue;
+        color: black;
         z-index: 1;
         display: flex;
         justify-self: center;
