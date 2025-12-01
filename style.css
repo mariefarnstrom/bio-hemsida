@@ -5,7 +5,7 @@
     rgb(44, 18, 99) 58.17%, 
     rgb(13, 48, 91) 76.44%, 
     rgb(11, 9, 21) 100%);
-    --background-texture: url('/images/background-texture 1.png');
+    --background-texture: url('images/background-texture 1.png');
     --pink: #FF99F3;
 	--pink-shadow: #ff2ee7;
     --turquoise: #48E5E1;
