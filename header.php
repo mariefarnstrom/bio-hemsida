@@ -26,7 +26,7 @@
 
         <!-- Desktop meny -->
         <div class="header-links">
-            <a href="/index.php" class="home">HOME</a>
+            <a href="index.php" class="home">HOME</a>
             <a href="#theaters" class="theaters">THEATERS</a>
             <a href="#showtimes" class="showtimes">SHOWTIMES</a>
             <img class="search-icon" src="images/icons/search.png" alt="Search">
@@ -39,7 +39,7 @@
         <div class="mobile-menu-content">
             <img class="alien-icon-large" src="images/icons/alien-icon.png" alt="Profile">
 
-            <a href="/index.php">HOME</a>
+            <a href="index.php">HOME</a>
             <a href="#theaters">THEATERS</a>
             <a href="#showtimes">SHOWTIMES</a>
 

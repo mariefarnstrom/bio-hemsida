@@ -15,7 +15,7 @@ require __DIR__ . '/variables.php';
         <div class="title-container">
             <div class="title">NOW SHOWING</div>
         </div>
-        <img class="camera-icon" src="/images/icons/camera-icon.png" alt="outline of a film camera">
+        <img class="camera-icon" src="images/icons/camera-icon.png" alt="outline of a film camera">
 
     </div>
     <div class="film-container">
@@ -33,7 +33,7 @@ require __DIR__ . '/variables.php';
             </div>
             <div>
                 <div class="pink-frame-movie">
-                    <img class="pink-image-icon" src="/images/movie-posters/mickey17.jpg" alt="Mickey 17 poster">
+                    <img class="pink-image-icon" src="images/movie-posters/mickey17.jpg" alt="Mickey 17 poster">
                     <div class="hover-img" id="carousel">
                         <a href="movie-info.php"><button class="info-tix" id="pink">INFO & TICKETS</button></a>
                     </div>
@@ -44,7 +44,7 @@ require __DIR__ . '/variables.php';
             </div>
             <div>
                 <div class="teal-frame-movie">
-                    <img class="teal-image-icon" src="/images/movie-posters/star-trek-section-31.jpg" alt="Star Trek: Section 31 poster">
+                    <img class="teal-image-icon" src="images/movie-posters/star-trek-section-31.jpg" alt="Star Trek: Section 31 poster">
                     <div class="hover-img" id="carousel">
                         <a href="movie-info.php"><button class="info-tix" id="teal">INFO & TICKETS</button></a>
                     </div>
@@ -55,7 +55,7 @@ require __DIR__ . '/variables.php';
             </div>
             <div>
                 <div class="pink-frame-movie">
-                    <img class="pink-image-icon" src="/images/movie-posters/tron-ares.jpg" alt="Tron: Ares poster">
+                    <img class="pink-image-icon" src="images/movie-posters/tron-ares.jpg" alt="Tron: Ares poster">
                     <div class="hover-img" id="carousel">
                         <a href="movie-info.php"><button class="info-tix" id="pink">INFO & TICKETS</button></a>
                     </div>
@@ -66,7 +66,7 @@ require __DIR__ . '/variables.php';
             </div>
             <div>
                 <div class="teal-frame-movie">
-                    <img class="teal-image-icon" src="/images/movie-posters/predator-badlands.jpeg" alt="Predator: Badlands poster">
+                    <img class="teal-image-icon" src="images/movie-posters/predator-badlands.jpeg" alt="Predator: Badlands poster">
                     <div class="hover-img" id="carousel">
                         <a href="movie-info.php"><button class="info-tix" id="teal">INFO & TICKETS</button></a>
                     </div>
@@ -77,7 +77,7 @@ require __DIR__ . '/variables.php';
             </div>
             <div>
                 <div class="pink-frame-movie">
-                    <img class="pink-image-icon" src="/images/movie-posters/companion.jpg" alt="Companion poster">
+                    <img class="pink-image-icon" src="images/movie-posters/companion.jpg" alt="Companion poster">
                     <div class="hover-img" id="carousel">
                         <a href="movie-info.php"><button class="info-tix" id="pink">INFO & TICKETS</button></a>
                     </div>
@@ -96,7 +96,7 @@ require __DIR__ . '/variables.php';
             <div class="classicSquare">
                 <h3 class="classicTitle">TERMINATOR 2 - JUDGMENT DAY (1991)</h3>
                 <div class="classicCoverFrame ">
-                    <img class="classicCover" src="/images/movie-posters/terminator2.jpg" alt="Classic movie cover">
+                    <img class="classicCover" src="images/movie-posters/terminator2.jpg" alt="Classic movie cover">
                     <div class="hover-img">
                         <a href="movie-info.php"><button class="info-tix">INFO & TICKETS</button></a>
                     </div>
@@ -144,7 +144,7 @@ require __DIR__ . '/variables.php';
             </div>
             <div>
                 <div class="pink-frame-movie">
-                    <img class="pink-image-icon" src="/images/movie-posters/the-dog-stars.jpg" alt="The Dog Stars poster">
+                    <img class="pink-image-icon" src="images/movie-posters/the-dog-stars.jpg" alt="The Dog Stars poster">
                     <div class="hover-img" id="carousel">
                         <a href="movie-info.php"><button class="info-tix" id="pink">INFO & TICKETS</button></a>
                     </div>
@@ -155,7 +155,7 @@ require __DIR__ . '/variables.php';
             </div>
             <div>
                 <div class="teal-frame-movie">
-                    <img class="teal-image-icon" src="/images/movie-posters/project-hail-mary.jpg" alt="Project Hail Mary poster">
+                    <img class="teal-image-icon" src="images/movie-posters/project-hail-mary.jpg" alt="Project Hail Mary poster">
                     <div class="hover-img" id="carousel">
                         <a href="movie-info.php"><button class="info-tix" id="teal">INFO & TICKETS</button></a>
                     </div>
@@ -166,7 +166,7 @@ require __DIR__ . '/variables.php';
             </div>
             <div>
                 <div class="pink-frame-movie">
-                    <img class="pink-image-icon" src="/images/movie-posters/dune-part-three.jpg" alt="Dune Part Three">
+                    <img class="pink-image-icon" src="images/movie-posters/dune-part-three.jpg" alt="Dune Part Three">
                     <div class="hover-img" id="carousel">
                         <a href="movie-info.php"><button class="info-tix" id="pink">INFO & TICKETS</button></a>
                     </div>
@@ -177,7 +177,7 @@ require __DIR__ . '/variables.php';
             </div>
             <div>
                 <div class="teal-frame-movie">
-                    <img class="teal-image-icon" src="/images/movie-posters/the-mandalorian-and-grogu.jpg" alt="Star Wars: The Mandalorian and Grogu poster">
+                    <img class="teal-image-icon" src="images/movie-posters/the-mandalorian-and-grogu.jpg" alt="Star Wars: The Mandalorian and Grogu poster">
                     <div class="hover-img" id="carousel">
                         <a href="movie-info.php"><button class="info-tix" id="teal">INFO & TICKETS</button></a>
                     </div>
@@ -188,7 +188,7 @@ require __DIR__ . '/variables.php';
             </div>
             <div>
                 <div class="pink-frame-movie">
-                    <img class="pink-image-icon" src="/images/movie-posters/28yearslater.jpg" alt="28 Years Later poster">
+                    <img class="pink-image-icon" src="images/movie-posters/28yearslater.jpg" alt="28 Years Later poster">
                     <div class="hover-img" id="carousel">
                         <a href="movie-info.php"><button class="info-tix" id="pink">INFO & TICKETS</button></a>
                     </div>
