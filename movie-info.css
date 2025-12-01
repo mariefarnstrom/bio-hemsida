@@ -446,6 +446,7 @@
 	position: absolute;
 	align-self: center;
     height: 25%;
+    width: 100vw;
 }
 
 @media (min-width: 768px) {
