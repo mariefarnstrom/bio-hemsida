@@ -85,4 +85,11 @@
         font-size: 1.7rem;
     }
 
+    .carousel-title-container {
+        margin-bottom: 30px;
+    }
+
+    .carousel-titles-container {
+        margin-bottom: 30px;
+    }
 }

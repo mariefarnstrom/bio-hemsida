@@ -123,7 +123,7 @@ require __DIR__ . '/variables.php';
 </section>
 
 <section class="film-carousel-container">
-    <div class="carousel-title-container">
+    <div class="carousel-titles-container">
         <div class="title-container">
             <div class="title">COMING SOON</div>
         </div>
