@@ -4,11 +4,12 @@
     }
 
     .film-container {
-        height: 28rem;
+        height: 29rem;
     }
 
     .film-carousel {
       	gap: 0.7rem;
+        padding-bottom: 20px;
     }
 
     .pink-frame-movie, .teal-frame-movie {
