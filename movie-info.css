@@ -181,19 +181,16 @@
 }
 
 .time {
-    display: flex;
     z-index: 1;
     position: absolute;
     align-self: center;
-    flex-direction: column;
 }
 
 .early {
-    margin-bottom: 5px;
+    
     font-family: var(--inter-font);
     font-size: 1rem;
     color: aliceblue;
-    margin-top: 50px;
 }
 
 .late {
@@ -201,6 +198,7 @@
     font-family: var(--inter-font);
     font-size: 1rem;
     color: aliceblue;
+    margin-bottom: 5px;
 }
 
 .dealsHead {
@@ -548,11 +546,9 @@
     }
 
     .time {
-        display: flex;
         z-index: 1;
         position: absolute;
         align-self: center;
-        flex-direction: column;
     }
 
     .time p {
@@ -560,12 +556,9 @@
     }
 
     .early {
-        margin-bottom: 1px;
-        /* position: absolute; */
         font-family: var(--inter-font);
         font-size: 1rem;
         color: aliceblue;
-        margin-top: 50px;
     }
 
     .late {
@@ -573,6 +566,7 @@
         font-family: var(--inter-font);
         font-size: 1rem;
         color: aliceblue;
+        margin: 0;
     }
 }
 
