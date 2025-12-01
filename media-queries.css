@@ -3,6 +3,10 @@
         font-size: 9px;
     }
 
+    .camera-icon {
+        left: 9rem;
+    }
+
     .film-container {
         height: 29rem;
     }
