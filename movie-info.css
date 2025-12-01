@@ -151,7 +151,6 @@
     display: flex;
     gap: 10px;
     align-items: center;
-    /* justify-content: center; */
     border: var(--pink) 1px solid;
     box-shadow: var(--pink-shadow) 0 0 10.413px 0;
     border-radius: 3.2px;
@@ -191,7 +190,6 @@
 
 .early {
     margin-bottom: 5px;
-    /* position: absolute; */
     font-family: var(--inter-font);
     font-size: 1rem;
     color: aliceblue;
@@ -205,7 +203,7 @@
     color: aliceblue;
 }
 
- .dealsHead {
+.dealsHead {
     color: #FF99F3;
     text-align: center;
     text-shadow: 0 0 5px #FF2EE7;
@@ -214,20 +212,20 @@
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
-	position: relative;
-	justify-self: center;
-	font-size: 2.5rem;
-	font-weight: lighter;
-	text-decoration: underline;
-	text-decoration-thickness: 0.125rem;
-	text-underline-offset: 0.8rem;
-	font-family: 'Text Me One';
-	display: flex;
-	align-items: center;
-	justify-content: center;
-    }
+    position: relative;
+    justify-self: center;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-decoration-thickness: 0.125rem;
+    text-underline-offset: 0.8rem;
+    font-family: 'Text Me One';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    .drinksTextFrame {
+.drinksTextFrame {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -259,23 +257,22 @@
 	object-fit: cover;
 }
 
-    .dealsOfTheWeek img {
-        display: flex;
-        flex-direction: column;
-        justify-self: center;
-    }
+.dealsOfTheWeek img {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
 
-    .drinks-special {
-        color: rgba(98, 250, 255, 0.89);
-        text-align: center;
-        text-shadow: 0 0 12.64px rgba(98, 250, 255, 0.89);
-        font-family: var(--font-base);
-        font-size: 31.115px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-transform: uppercase;
-
+.drinks-special {
+    color: rgba(98, 250, 255, 0.89);
+    text-align: center;
+    text-shadow: 0 0 12.64px rgba(98, 250, 255, 0.89);
+    font-family: var(--font-base);
+    font-size: 31.115px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 	margin-bottom: 0;
 	width: 12.338rem;
 	height: 4.194rem;
@@ -293,8 +290,8 @@
 	text-shadow: 0px 2px 12.64px rgba(98, 250, 255, 0.89);
 }
     
-    .drinksDeal {
-        margin-top: 0;
+.drinksDeal {
+    margin-top: 0;
 	width: 10.875rem;
 	height: 7.113rem;
 	position: relative;
@@ -306,15 +303,14 @@
 	align-items: center;
 	justify-content: center;
 	text-shadow: 0px 0px 12.64px rgba(255, 221, 98, 0.89);
-        text-transform: uppercase;
-    }
+    text-transform: uppercase;
+}
 
-    .foodsDeal {
-        margin-top: 0;
+.foodsDeal {
+    margin-top: 0;
 	margin-bottom: 1rem;
 	margin-left: 1rem;
 	margin-right: 1rem;
-	/* width: 13.919rem; */
 	height: 7.113rem;
 	position: relative;
 	font-size: 1.944rem;
@@ -326,10 +322,10 @@
 	justify-content: center;
 	text-shadow: 0px 0px 12.64px rgba(98, 250, 255, 0.89);
     text-transform: uppercase;
-    }
+}
 
-    .foods-special {
-        margin-bottom: 0;
+.foods-special {
+    margin-bottom: 0;
 	margin-top: 1rem;
 	width: 12.338rem;
 	height: 4.194rem;
@@ -347,9 +343,9 @@
 	justify-content: center;
 	text-shadow: 0px 0px 12.64px #ff2ee7;
     text-transform: uppercase;
-    }
+}
 
-    .foodsFrame {
+.foodsFrame {
 	justify-self: center;
 	display: flex;
 	flex-direction: column;
@@ -364,9 +360,7 @@
     display: flex;
 	justify-content: center;
 	align-content: center;
-	/* width: 100vw; */
-   /*  height: 32rem; */
-   margin: 20px;
+    margin: 20px;
 }
 
 .newsletter-form-movie {
@@ -384,7 +378,7 @@
 	align-self: center;
 }
  
-    .newsletter-form-movie label {
+.newsletter-form-movie label {
     width: 17.18rem;
 	padding: .5rem;
     color: var(--pink);
@@ -403,10 +397,10 @@
     text-underline-position: from-font;
 	padding-top: 0;
     text-transform: uppercase;
-    }
+}
 
-    .newsletter-form-movie button {
-        width: 4.25rem;
+.newsletter-form-movie button {
+    width: 4.25rem;
 	height: 1.625rem;
 	background: none;
 	border-radius: 0.25rem;
@@ -421,11 +415,11 @@
 	font-weight: 400;
 	line-height: normal;
 	align-self: center;
-        text-transform: uppercase;
-    }
+    text-transform: uppercase;
+}
 
-    .newsletter-form-movie input {
-        background: none;
+.newsletter-form-movie input {
+    background: none;
 	border: 1px solid var(--yellow);
 	border-radius: 3.2px;
     box-shadow: 0 0 10.413px 0 var(--yellow);
@@ -439,10 +433,10 @@
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-        text-transform: uppercase;
-    }
+    text-transform: uppercase;
+}
 
-    .newsletterCont {
+.newsletterCont {
 	position: absolute;
 	align-self: center;
     height: 25%;
@@ -509,7 +503,7 @@
     } 
 
     .calendar-container img {
-    height: 14vw;
+        height: 14vw;
     }
 
     .calendar-container {
@@ -536,55 +530,50 @@
         height: 8%;
     }
 
-   /*  .calendar-container img {
-    position: relative;
-    height: 12vw;
-} */
+    .calendar-day {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-.calendar-day {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+    .date p {
+        position: absolute;
+        font-family: var(--font-base);
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: aliceblue;
+        z-index: 1;
+        display: flex;
+        justify-self: center;
+    }
 
-.date p {
-    position: absolute;
-    font-family: var(--font-base);
-    font-size: 1rem;
-    text-transform: uppercase;
-    color: aliceblue;
-    z-index: 1;
-    display: flex;
-    justify-self: center;
-}
+    .time {
+        display: flex;
+        z-index: 1;
+        position: absolute;
+        align-self: center;
+        flex-direction: column;
+    }
 
-.time {
-    display: flex;
-    z-index: 1;
-    position: absolute;
-    align-self: center;
-    flex-direction: column;
-}
+    .time p {
+        font-family: var(--font-base);
+    }
 
-.time p {
-    font-family: var(--font-base);
-}
+    .early {
+        margin-bottom: 1px;
+        /* position: absolute; */
+        font-family: var(--inter-font);
+        font-size: 1rem;
+        color: aliceblue;
+        margin-top: 50px;
+    }
 
-.early {
-    margin-bottom: 1px;
-    /* position: absolute; */
-    font-family: var(--inter-font);
-    font-size: 1rem;
-    color: aliceblue;
-    margin-top: 50px;
-}
-
-.late {
-    position: absolute;
-    font-family: var(--inter-font);
-    font-size: 1rem;
-    color: aliceblue;
-}
+    .late {
+        position: absolute;
+        font-family: var(--inter-font);
+        font-size: 1rem;
+        color: aliceblue;
+    }
 }
 
 @media (max-width: 768px){
@@ -595,6 +584,5 @@
     .drinksDealFrame {
         width: auto;
         gap: 0;
-        /* height: 10.5rem; */
     }
 }

@@ -21,7 +21,6 @@ $newsletterCont = '<svg class="newsletterCont" xmlns="http://www.w3.org/2000/svg
 </svg>';
 ?>
 
-<!-- insert camera icon -->
 <div class="movie">
     <div class="cam-titel">
         <img src="images/icons/camera-icon.png" alt="camera-icon">
