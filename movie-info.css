@@ -171,13 +171,17 @@
 
 .date p {
     position: absolute;
-    font-family: var(--inter-font);
+    font-family: var(--font-base);
     font-size: 1rem;
     text-transform: uppercase;
     color: black;
     z-index: 1;
     display: flex;
     justify-self: center;
+}
+
+.time p {
+    font-family: var(--font-base)
 }
 
 .time {
